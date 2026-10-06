@@ -85,20 +85,26 @@ def reset_supabase_client():
 
 def _sanitize_error(error_str: str) -> str:
     """Removes sensitive keys, URLs, and internal tokens from exception messages."""
+    import re
     settings = get_settings()
     cleaned = error_str
     sb_key = getattr(settings, "supabase_key", None)
-    if sb_key and isinstance(sb_key, str):
+    if sb_key and isinstance(sb_key, str) and sb_key.strip():
         cleaned = cleaned.replace(sb_key.strip(), "***MASKED***")
     sb_url = getattr(settings, "supabase_url", None)
-    if sb_url and isinstance(sb_url, str):
+    if sb_url and isinstance(sb_url, str) and sb_url.strip():
         cleaned = cleaned.replace(sb_url.strip(), "***URL***")
     sb_jwt = getattr(settings, "supabase_jwt_secret", None)
-    if sb_jwt and isinstance(sb_jwt, str):
+    if sb_jwt and isinstance(sb_jwt, str) and sb_jwt.strip():
         cleaned = cleaned.replace(sb_jwt.strip(), "***MASKED***")
     llm_key = getattr(settings, "llm_api_key", None)
-    if llm_key and isinstance(llm_key, str):
+    if llm_key and isinstance(llm_key, str) and llm_key.strip():
         cleaned = cleaned.replace(llm_key.strip(), "***MASKED***")
+
+    # Defense-in-depth: mask database connection strings containing passwords
+    cleaned = re.sub(r'(postgres(?:ql)?://[^:\s]+):[^@\s]+@', r'\1:***MASKED***@', cleaned)
+    # Defense-in-depth: mask standard Google/Gemini API key tokens
+    cleaned = re.sub(r'AIza[0-9A-Za-z-_]{35}', '***API_KEY_MASKED***', cleaned)
     return cleaned
 
 

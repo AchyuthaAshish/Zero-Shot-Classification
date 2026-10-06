@@ -37,3 +37,10 @@ hf_cache/
 # Presentation and academic submission documents
 docx/*.pptx
 docx/*.docx
+
+# Keys, certificates, and credentials
+*.pem
+*.key
+*.crt
+*.cert
+credentials.json

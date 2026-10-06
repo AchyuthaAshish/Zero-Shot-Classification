@@ -9,6 +9,7 @@ import os
 from dataclasses import dataclass, field
 from typing import List, Optional
 from config.settings import get_settings, load_env_file
+from core.exceptions import ConfigurationError
 
 # Default safe development origins (Vite/React dev servers and Streamlit UI)
 DEFAULT_DEV_CORS_ORIGINS: List[str] = [
@@ -20,16 +21,72 @@ DEFAULT_DEV_CORS_ORIGINS: List[str] = [
     "http://127.0.0.1:8501"
 ]
 
+# Explicit allowed HTTP methods for CORS (only methods required by the API)
+DEFAULT_CORS_METHODS: List[str] = ["GET", "POST", "PATCH", "OPTIONS"]
 
-def _parse_cors_origins() -> List[str]:
-    """Parses CORS_ORIGINS from environment, falling back to safe local dev origins."""
+# Explicit allowed HTTP request headers for CORS
+DEFAULT_CORS_HEADERS: List[str] = [
+    "Authorization",
+    "Content-Type",
+    "Accept",
+    "Origin",
+    "X-Requested-With",
+]
+
+
+def _parse_cors_origins(environment: str = "development") -> List[str]:
+    """Parses and validates CORS_ORIGINS from environment.
+
+    Hardening Rules (Step 5.7.3):
+    1. Trims whitespace, skips empty tokens, and deduplicates origins while preserving order.
+    2. Rejects wildcard '*' origins because allow_credentials=True is enabled.
+    3. In production (ENVIRONMENT=production), requires explicitly configured non-empty origins.
+    4. In production, strictly forbids localhost and loopback origins (127.0.0.1, ::1).
+    5. In non-production, falls back to safe local development origins if none are supplied.
+    """
     raw = os.getenv("CORS_ORIGINS")
+    is_prod = str(environment).strip().lower() == "production"
+
     if not raw or not raw.strip():
+        if is_prod:
+            raise ConfigurationError(
+                "In production environment, explicit CORS_ORIGINS must be configured."
+            )
         return list(DEFAULT_DEV_CORS_ORIGINS)
 
-    # Allow comma-separated values (e.g. "http://localhost:5173,http://localhost:3000")
-    origins = [item.strip() for item in raw.split(",") if item.strip()]
-    return origins if origins else list(DEFAULT_DEV_CORS_ORIGINS)
+    # Parse, trim, and filter out empty tokens
+    tokens = [item.strip() for item in raw.split(",") if item.strip()]
+    if not tokens:
+        if is_prod:
+            raise ConfigurationError(
+                "In production environment, explicit CORS_ORIGINS must be configured."
+            )
+        return list(DEFAULT_DEV_CORS_ORIGINS)
+
+    # Deduplicate while preserving order
+    origins: List[str] = []
+    seen = set()
+    for token in tokens:
+        if token not in seen:
+            seen.add(token)
+            origins.append(token)
+
+    # Wildcard origin protection when credentials enabled
+    if "*" in origins:
+        raise ConfigurationError(
+            "CORS wildcard '*' is not permitted when credentials are enabled. Explicit origins are required."
+        )
+
+    # Production validation: reject localhost and loopback origins
+    if is_prod:
+        for origin in origins:
+            lower_origin = origin.lower()
+            if "localhost" in lower_origin or "127.0.0.1" in lower_origin or "::1" in lower_origin:
+                raise ConfigurationError(
+                    f"Localhost and loopback origins are not permitted in production environment: '{origin}'."
+                )
+
+    return origins
 
 
 API_DESCRIPTION: str = (
@@ -59,6 +116,8 @@ class APISettings:
     api_prefix: str = "/api/v1"
     environment: str = "development"
     cors_origins: List[str] = field(default_factory=list)
+    cors_methods: List[str] = field(default_factory=lambda: list(DEFAULT_CORS_METHODS))
+    cors_headers: List[str] = field(default_factory=lambda: list(DEFAULT_CORS_HEADERS))
     docs_url: str = "/docs"
     redoc_url: str = "/redoc"
     openapi_url: str = "/openapi.json"
@@ -70,7 +129,7 @@ def load_api_settings() -> APISettings:
     # Read environment
     env = os.getenv("ENVIRONMENT", os.getenv("APP_ENV", "development")).strip().lower()
     prefix = os.getenv("API_PREFIX", "/api/v1").strip()
-    cors_origins = _parse_cors_origins()
+    cors_origins = _parse_cors_origins(environment=env)
 
     return APISettings(
         title="Industrial Defect Intelligence API",
@@ -79,6 +138,8 @@ def load_api_settings() -> APISettings:
         api_prefix=prefix if prefix.startswith("/") else f"/{prefix}",
         environment=env,
         cors_origins=cors_origins,
+        cors_methods=list(DEFAULT_CORS_METHODS),
+        cors_headers=list(DEFAULT_CORS_HEADERS),
         docs_url="/docs",
         redoc_url="/redoc",
         openapi_url="/openapi.json"

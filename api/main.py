@@ -22,6 +22,7 @@ from api.routes.history import router as history_router
 from api.routes.auth import router as auth_router
 from api.errors import APIError
 from api.schemas.errors import ErrorCode
+from api.middleware.security import SecurityHeadersMiddleware, apply_security_headers
 
 logger = logging.getLogger("api.main")
 
@@ -65,14 +66,19 @@ def create_app(settings: APISettings = None) -> FastAPI:
     )
 
     # -------------------------------------------------------------------------
-    # CORS Middleware Configuration (Step 3.1 Section 7)
+    # Security Headers Middleware (Step 5.7.2)
+    # -------------------------------------------------------------------------
+    app.add_middleware(SecurityHeadersMiddleware)
+
+    # -------------------------------------------------------------------------
+    # CORS Middleware Configuration (Step 3.1 Section 7 & Step 5.7.3 Hardening)
     # -------------------------------------------------------------------------
     app.add_middleware(
         CORSMiddleware,
         allow_origins=cfg.cors_origins,
         allow_credentials=True,
-        allow_methods=["GET", "POST", "OPTIONS"],
-        allow_headers=["*"],
+        allow_methods=cfg.cors_methods,
+        allow_headers=cfg.cors_headers,
     )
 
     # -------------------------------------------------------------------------
@@ -81,9 +87,15 @@ def create_app(settings: APISettings = None) -> FastAPI:
     @app.exception_handler(APIError)
     async def api_error_handler(request: Request, exc: APIError) -> JSONResponse:
         """Handler for structured domain application errors."""
+        headers = dict(exc.headers) if exc.headers else {}
+        if exc.status_code == 401 and "WWW-Authenticate" not in headers:
+            headers["WWW-Authenticate"] = "Bearer"
+        elif exc.status_code == 403 and "WWW-Authenticate" in headers:
+            headers.pop("WWW-Authenticate", None)
+
         return JSONResponse(
             status_code=exc.status_code,
-            headers=exc.headers,
+            headers=headers if headers else None,
             content={
                 "success": False,
                 "error": {
@@ -133,6 +145,10 @@ def create_app(settings: APISettings = None) -> FastAPI:
             code = ErrorCode.UNAUTHORIZED.value
             message = str(exc.detail)
             details = {}
+        elif exc.status_code == 403:
+            code = ErrorCode.FORBIDDEN.value
+            message = str(exc.detail)
+            details = {}
         elif exc.status_code == 422:
             code = ErrorCode.VALIDATION_ERROR.value
             message = str(exc.detail)
@@ -146,9 +162,15 @@ def create_app(settings: APISettings = None) -> FastAPI:
             message = str(exc.detail)
             details = {}
 
+        headers = dict(getattr(exc, "headers", None) or {})
+        if exc.status_code == 401 and "WWW-Authenticate" not in headers:
+            headers["WWW-Authenticate"] = "Bearer"
+        elif exc.status_code == 403 and "WWW-Authenticate" in headers:
+            headers.pop("WWW-Authenticate", None)
+
         return JSONResponse(
             status_code=exc.status_code,
-            headers=getattr(exc, "headers", None),
+            headers=headers if headers else None,
             content={
                 "success": False,
                 "error": {
@@ -195,7 +217,7 @@ def create_app(settings: APISettings = None) -> FastAPI:
         sanitized_log = _sanitize_error(str(exc))
         logger.error(f"Unhandled server error on {request.method} {request.url.path}: {sanitized_log}", exc_info=True)
 
-        return JSONResponse(
+        response = JSONResponse(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             content={
                 "success": False,
@@ -206,6 +228,7 @@ def create_app(settings: APISettings = None) -> FastAPI:
                 }
             }
         )
+        return apply_security_headers(response, request)
 
     # -------------------------------------------------------------------------
     # Root / Service Information Endpoint (Step 3.1 Section 5)

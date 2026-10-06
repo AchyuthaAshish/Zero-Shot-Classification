@@ -91,8 +91,8 @@ The project scope has been officially reduced and restructured to prioritize a r
 | 5.3 | Employee Role Enactment | Important | **COMPLETED** |
 | 5.4 | Reviewer Role | Postponed | *Post-Deployment* |
 | 5.5 | Admin Role | Postponed | *Post-Deployment* |
-| 5.6 | Production RLS Policies Redesign | Required | **PREPARED / PENDING MIGRATION** |
-| 5.7 | API Security (CORS, Auth Verification) | Required | Not Started |
+| 5.6 | Production RLS Policies Redesign | Required | **COMPLETE AND LIVE VERIFIED** |
+| 5.7 | API Security (CORS, Auth Verification) | Required | **COMPLETE AND VERIFIED** |
 | 5.8 | Secrets & Security Audit | Required | Not Started |
 | **Phase 6** | **Human-in-the-Loop** | Extension | **POSTPONED** |
 | 6.1-6.6| Review Queue, Approval Workflow, Feedback Datasets | Postponed | *Post-Deployment* |
@@ -636,10 +636,10 @@ The project scope has been officially reduced and restructured to prioritize a r
   - Trigger `handle_new_user` updated to populate `employee` role.
   - Application authorization dependency `require_employee` active.
 
-- [ ] **Step 5.6 — Row Level Security (RLS) Redesign**: **PREPARED / PENDING MANUAL SUPABASE MIGRATION**
+- [x] **Step 5.6 — Row Level Security (RLS) Redesign**: **COMPLETE AND LIVE VERIFIED**
   - **Status Distinction**:
-    - **IMPLEMENTED LOCALLY**: Schema migration script `20261006000003_rls_redesign.sql`, repository methods with `user_id` and token-scoped client, API history routes with ownership checks and anonymous protection, and 16 automated tests.
-    - **REQUIRES MANUAL SUPABASE EXECUTION**: SQL migration has NOT been executed against the live database; pending manual review and execution in Supabase Dashboard SQL Editor.
+    - **COMPLETE AND LIVE VERIFIED**: Schema migration `20261006000003_rls_redesign.sql` executed and live verified against Supabase database.
+    - Repository methods with `user_id` and token-scoped client active, API history routes with ownership checks and anonymous protection verified, and 16 automated tests passing.
   - **RLS Architecture & Ownership**:
     - `public.profiles`: Own-row read/write policies (`auth.uid() = id`). PostgreSQL `BEFORE UPDATE` trigger `protect_profile_role` preventing unauthorized client alteration of `role`.
     - `public.defect_reports`: Idempotently adds `user_id UUID REFERENCES auth.users(id) ON DELETE SET NULL` with B-tree index `idx_defect_reports_user_id`. Own-row INSERT (`auth.uid() = user_id`) and SELECT (`auth.uid() = user_id`) policies for `authenticated`. Client UPDATE/DELETE blocked. Legacy rows (`user_id IS NULL`) preserved.
@@ -658,6 +658,45 @@ The project scope has been officially reduced and restructured to prioritize a r
     - 434 unittest discover passed (0 failures, 0 errors)
     - 16 dedicated RLS tests passed
     - Datasets: 600 training rows, 93 evaluation cases unchanged.
+
+- [x] **Step 5.7 — API Security (CORS, Headers, RFC 6750 WWW-Authenticate)**: **COMPLETE AND VERIFIED**
+  - **Status**: Complete and verified across dedicated security test suites.
+  - **Security Headers Middleware** (`api/middleware/security.py`, `api/main.py`):
+    - `X-Content-Type-Options: nosniff` (MIME sniffing prevention).
+    - `X-Frame-Options: DENY` (Clickjacking defense).
+    - `Referrer-Policy: strict-origin-when-cross-origin` (Referrer privacy protection).
+    - `Permissions-Policy: geolocation=(), camera=(), microphone=()` (Hardware API restriction).
+    - `Content-Security-Policy`: Dual policy separating strict REST API endpoints (`default-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'`) and interactive documentation (`/docs`, `/redoc`, `/openapi.json`) with required CDN and asset permissions.
+    - `Strict-Transport-Security`: Conditionally omitted on local HTTP development requests; enforced on HTTPS connections (direct and `X-Forwarded-Proto=https`) and when configured for production (`ENVIRONMENT=production`).
+    - Verified across 200 (normal), 404 (not found), 422 (validation error), and 500 (internal server error) responses.
+  - **Production-Safe CORS Hardening** (`api/config.py`, `api/main.py`):
+    - Explicit HTTP method allowlist: `GET`, `POST`, `PATCH`, `OPTIONS` (disallowing wildcard methods).
+    - Explicit HTTP header allowlist: `Authorization`, `Content-Type`, `Accept`, `Origin`, `X-Requested-With` (disallowing wildcard `*` headers).
+    - Wildcard origin rejection: Forbids `*` when `allow_credentials=True` is active.
+    - Production origin requirements: Enforces non-empty explicit CORS origins and strictly forbids `localhost` or loopback origins (`127.0.0.1`, `::1`).
+    - Security headers preserved across all CORS preflight and regular responses.
+  - **RFC 6750 WWW-Authenticate Compliance** (`api/errors.py`, `api/main.py`):
+    - Standardized `WWW-Authenticate: Bearer` challenge header on every HTTP 401 response (missing token, malformed header, invalid JWT, expired signature, unconfigured auth service).
+    - Explicitly omitted on HTTP 403 Forbidden responses to prevent client challenge confusion.
+    - Standardized error envelope preserved: `{success: false, error: {code, message, details}}`.
+    - Absolute credential sanitization: Zero tokens, JWTs, database URLs, filesystem paths, or Python stack traces exposed in responses.
+  - **Comprehensive Security Test Suite**:
+    - `tests/test_api_security.py`: 24 comprehensive tests covering headers on 200/404/422/500, HSTS conditionality, docs CSP, CORS methods/headers/origins/rejections, 401 WWW-Authenticate vs 403, public vs protected route enforcement, and 500 error disclosure prevention.
+    - `tests/test_security_headers.py`: 13 focused middleware tests.
+    - `tests/test_cors_hardening.py`: 12 focused CORS tests.
+  - **Files Created**:
+    - `api/middleware/__init__.py`
+    - `api/middleware/security.py`
+    - `tests/test_security_headers.py`
+    - `tests/test_cors_hardening.py`
+    - `tests/test_api_security.py`
+  - **Files Modified**:
+    - `api/main.py`
+    - `api/config.py`
+    - `PROJECT_STATUS.md`
+  - **Next Steps**:
+    - Step 5.8: Secrets & Security Audit (NOT STARTED).
+    - Phase 4: Professional React/Vite Frontend (NOT STARTED / DEFERRED).
 
 ---
 

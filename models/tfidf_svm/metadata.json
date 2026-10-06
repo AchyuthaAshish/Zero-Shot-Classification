@@ -1,0 +1,34 @@
+{
+  "model_type": "TF-IDF + LinearSVC (Calibrated)",
+  "pipeline": [
+    "TfidfVectorizer(ngram_range=(1,2))",
+    "CalibratedClassifierCV(LinearSVC)"
+  ],
+  "training_dataset_size": 600,
+  "train_examples": 480,
+  "validation_examples": 120,
+  "class_distribution": {
+    "Mechanical Fault": 75,
+    "Electrical Fault": 75,
+    "Sensor Fault": 75,
+    "Temperature Fault": 75,
+    "Software Fault": 75,
+    "Power Supply Fault": 75,
+    "Communication Fault": 75,
+    "Unknown": 75
+  },
+  "random_seed": 42,
+  "confidence_threshold": 0.7,
+  "training_timestamp": "2026-09-26T17:27:30.487774Z",
+  "validation_metrics": {
+    "accuracy": 0.8583,
+    "macro_f1": 0.8618
+  },
+  "timing_measurements": {
+    "dataset_prep_time_seconds": 0.0304,
+    "training_time_seconds": 0.061,
+    "validation_time_seconds": 0.0079,
+    "total_time_seconds": 0.0993,
+    "avg_prediction_latency_ms": 2.468
+  }
+}

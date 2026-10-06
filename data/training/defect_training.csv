@@ -1,0 +1,601 @@
+text,category,language,source
+Conveyor drive roller bearing is producing abnormal grinding noise.,Mechanical Fault,English,manual_seed
+Main drive shaft has excessive axial vibration and radial runout.,Mechanical Fault,English,manual_seed
+Gearbox bevel gear teeth are heavily worn causing rattling sounds.,Mechanical Fault,English,manual_seed
+Centrifugal pump impeller is unbalanced and vibrating violently.,Mechanical Fault,English,manual_seed
+Cooling fan blade cracked and rubbing against outer shroud.,Mechanical Fault,English,manual_seed
+Hydraulic cylinder rod is scored and binding during stroke extension.,Mechanical Fault,English,manual_seed
+Flexible shaft coupling rubber insert has completely shredded.,Mechanical Fault,English,manual_seed
+Overhead crane wire rope slipped off drum guide grooves.,Mechanical Fault,English,manual_seed
+Pneumatic actuator guide rod is jammed due to debris accumulation.,Mechanical Fault,English,manual_seed
+Spindle bearing cage failure causing severe mechanical friction.,Mechanical Fault,English,manual_seed
+V-belt tension loosened and slipping across motor pulley under load.,Mechanical Fault,English,manual_seed
+Mixer agitator shaft bent after foreign material entered the vat.,Mechanical Fault,English,manual_seed
+Linear slide rail balls seized preventing carriage movement.,Mechanical Fault,English,manual_seed
+Exhaust blower rotor rattling against housing at 1500 RPM.,Mechanical Fault,English,manual_seed
+Reciprocating compressor piston rings worn causing mechanical knocking.,Mechanical Fault,English,manual_seed
+Drive sprocket teeth sheared under heavy mechanical overload.,Mechanical Fault,English,manual_seed
+Conveyor roller bracket loose and vibrating against frame.,Mechanical Fault,English,manual_seed
+High pressure slurry pump mechanical seal face scored and leaking.,Mechanical Fault,English,manual_seed
+Robotic arm wrist joint backlash exceeds permissible mechanical tolerance.,Mechanical Fault,English,manual_seed
+Ball screw nut on CNC lathe Z-axis is binding during rapid feed.,Mechanical Fault,English,manual_seed
+Motor bearing is producing abnormal noise.,Mechanical Fault,English,manual_seed
+Heavy vibration observed in pump housing.,Mechanical Fault,English,manual_seed
+Flywheel wobbling on main shaft during rotation.,Mechanical Fault,English,manual_seed
+Crusher jaw plate cracked and vibrating loose.,Mechanical Fault,English,manual_seed
+Rotary valve rotor blades rubbing against casing.,Mechanical Fault,English,manual_seed
+The conveyor motor is making a grinding noise.,Mechanical Fault,English,manual_seed
+The conveyor drive is producing a harsh rattling sound while running.,Mechanical Fault,English,manual_seed
+The motor bearing produces a continuous grinding sound.,Mechanical Fault,English,manual_seed
+The conveyor shaft appears to be misaligned.,Mechanical Fault,English,manual_seed
+Drive pulley bearing is chattering continuously under belt tension.,Mechanical Fault,English,manual_seed
+Conveyor drive motor emits a loud grinding noise under normal operation.,Mechanical Fault,English,manual_seed
+Motor shaft bearing cage collapsed producing harsh mechanical friction.,Mechanical Fault,English,manual_seed
+Rattling and clattering sound heard inside the reduction gearbox.,Mechanical Fault,English,manual_seed
+Conveyor idler roller seized causing excessive friction against belt.,Mechanical Fault,English,manual_seed
+Mechanical vibration caused by severe misalignment between motor and pump.,Mechanical Fault,English,manual_seed
+మోటార్ బేరింగ్ నుంచి అసాధారణ రాపిడి శబ్దం వస్తోంది.,Mechanical Fault,Telugu,manual_seed
+కన్వేయర్ బెల్ట్ డ్రైవ్ షాఫ్ట్ చాలా ఎక్కువగా వైబ్రేట్ అవుతోంది.,Mechanical Fault,Telugu,manual_seed
+గేర్‌బాక్స్ లోపల పళ్ళు అరిగిపోయి శబ్దం వినబడుతోంది.,Mechanical Fault,Telugu,manual_seed
+పంప్ ఇంపెల్లర్ బ్యాలెన్స్ తప్పి గట్టిగా శబ్దం చేస్తోంది.,Mechanical Fault,Telugu,manual_seed
+కూలింగ్ ఫ్యాన్ బ్లేడ్ విరిగి బాడీకి తగులుతోంది.,Mechanical Fault,Telugu,manual_seed
+హైడ్రాలిక్ సిలిండర్ రాడ్ కదలక మధ్యలోనే జామ్ అయింది.,Mechanical Fault,Telugu,manual_seed
+మోటార్ కప్లింగ్ రబ్బర్ బుష్ పగిలిపోయి షాఫ్ట్ కదులుతోంది.,Mechanical Fault,Telugu,manual_seed
+రోలర్ బేరింగ్స్ విరిగిపోయి తిరగడం ఆగిపోయింది.,Mechanical Fault,Telugu,manual_seed
+మెషిన్ బేస్ బోల్టులు వదులై షేకింగ్ ఎక్కువగా ఉంది.,Mechanical Fault,Telugu,manual_seed
+కన్వేయర్ రోలర్ తిరగకుండా ఆగిపోయింది.,Mechanical Fault,Telugu,manual_seed
+షాఫ్ట్ వంకరపోయి రొటేషన్ సరిగ్గా అవ్వడం లేదు.,Mechanical Fault,Telugu,manual_seed
+గేర్ వీల్స్ ఒకదానికొకటి రాసుకుంటూ వైబ్రేషన్ వస్తోంది.,Mechanical Fault,Telugu,manual_seed
+పంప్ బాడీ గట్టిగా అదిరిపోతోంది.,Mechanical Fault,Telugu,manual_seed
+మెషిన్ స్పిండిల్ బేరింగ్ జామ్ అయి నడవట్లేదు.,Mechanical Fault,Telugu,manual_seed
+డ్రైవ్ బెల్ట్ లూజ్ అయి పుల్లీ పై స్లిప్ అవుతోంది.,Mechanical Fault,Telugu,manual_seed
+మోటార్ బేరింగ్ తిరిగేటప్పుడు రాపిడి మరియు గ్రైండింగ్ శబ్దం వస్తోంది.,Mechanical Fault,Telugu,manual_seed
+కన్వేయర్ డ్రైవ్ షాఫ్ట్ సరిగ్గా తిరగకుండా గట్టిగా రాసుకుంటోంది.,Mechanical Fault,Telugu,manual_seed
+గేర్‌బాక్స్ లోపల పళ్ళు విరిగి రాపిడి ధ్వని వస్తోంది.,Mechanical Fault,Telugu,manual_seed
+Motor lo unusual grinding sound vastundi and shaft vibrate avtundi.,Mechanical Fault,Telugu-English,manual_seed
+"Conveyor roller jam aipoindi, belt move avvatledu.",Mechanical Fault,Telugu-English,manual_seed
+"Pump bearing worn out aindi, heavy mechanical friction undi.",Mechanical Fault,Telugu-English,manual_seed
+Gearbox lo gear teeth crack aipoyi rattling sound vastundi.,Mechanical Fault,Telugu-English,manual_seed
+"Drive shaft alignment miss aindi, heavy wobble kanipistundi.",Mechanical Fault,Telugu-English,manual_seed
+"Fan blade rub avtundi outer frame ki, noise baga vastondi.",Mechanical Fault,Telugu-English,manual_seed
+Coupling bolts loose ayyi shaft abnormal ga shake avtundi.,Mechanical Fault,Telugu-English,manual_seed
+Hydraulic rod stroke madhyalo stuck aindi mechanical obstacle valla.,Mechanical Fault,Telugu-English,manual_seed
+"Motor pulley slipping avtundi, belt tension poindi.",Mechanical Fault,Telugu-English,manual_seed
+Linear guide rail seized aipoindi ball bearings break avvadam valla.,Mechanical Fault,Telugu-English,manual_seed
+"Main drive bearing fail aindi, huge mechanical vibration undi.",Mechanical Fault,Telugu-English,manual_seed
+Compressor piston knocking noise vastundi running lo.,Mechanical Fault,Telugu-English,manual_seed
+Mixer blade vankara aipoyi tank wall ki scrape avtundi.,Mechanical Fault,Telugu-English,manual_seed
+Crane cable drum nunchi slip aindi mechanical guide broken valla.,Mechanical Fault,Telugu-English,manual_seed
+CNC lathe spindle bearing friction valla tight aipoindi.,Mechanical Fault,Telugu-English,manual_seed
+Motor mounting base bolts loose aipoyi vibration perigindi.,Mechanical Fault,Telugu-English,manual_seed
+Rotor unbalance valla machine heavily shaking.,Mechanical Fault,Telugu-English,manual_seed
+Sprocket teeth shear aipoyayi heavy mechanical load valla.,Mechanical Fault,Telugu-English,manual_seed
+Agitator shaft wobbling unsteadily in mixing vessel.,Mechanical Fault,Telugu-English,manual_seed
+Conveyor idler roller bearing completely seized.,Mechanical Fault,Telugu-English,manual_seed
+Motor bearing nunchi continuous grinding sound vastundi.,Mechanical Fault,Telugu-English,manual_seed
+Conveyor drive shaft misaligned ayyi rattle sound chestundi.,Mechanical Fault,Telugu-English,manual_seed
+Motor terminal box experienced an arc flash with visible scorching.,Electrical Fault,English,manual_seed
+Phase-to-phase short circuit detected on the feeder cable.,Electrical Fault,English,manual_seed
+Stator winding insulation breakdown caused instantaneous ground fault.,Electrical Fault,English,manual_seed
+Contactor coil burnt out and will not pull in the main contacts.,Electrical Fault,English,manual_seed
+Loose crimp on phase B terminal lug causing heavy resistive sparking.,Electrical Fault,English,manual_seed
+Earth leakage relay tripped due to degraded cable insulation.,Electrical Fault,English,manual_seed
+Circuit breaker tripped on instantaneous magnetic overcurrent protection.,Electrical Fault,English,manual_seed
+Three-phase motor running on single phasing after fuse blown on line 3.,Electrical Fault,English,manual_seed
+Current transformer secondary circuit opened causing high voltage arcing.,Electrical Fault,English,manual_seed
+Electrical flashover inside the 415V distribution switchboard.,Electrical Fault,English,manual_seed
+Severe phase current imbalance exceeding 35% across motor windings.,Electrical Fault,English,manual_seed
+Control relay contacts welded shut due to sustained inrush current.,Electrical Fault,English,manual_seed
+Power cable is damaged with exposed conductors touching enclosure.,Electrical Fault,English,manual_seed
+Capacitor bank cell exploded in power factor correction cubicle.,Electrical Fault,English,manual_seed
+Busbar support insulator cracked leading to flashover to enclosure earth.,Electrical Fault,English,manual_seed
+Motor winding resistance test shows open circuit on phase U.,Electrical Fault,English,manual_seed
+Ground fault detected on branch feeder circuit 4.,Electrical Fault,English,manual_seed
+Thermal magnetic breaker contacts badly pitted and arcing under load.,Electrical Fault,English,manual_seed
+Neutral conductor disconnected causing severe phase voltage displacement.,Electrical Fault,English,manual_seed
+Insulation resistance of motor measured below 0.1 Megaohms to ground.,Electrical Fault,English,manual_seed
+Main disconnect switch contacts burnt and failing to close phase 2.,Electrical Fault,English,manual_seed
+Heavy electrical sparks coming from motor slip rings.,Electrical Fault,English,manual_seed
+Residual current device trips immediately when energized.,Electrical Fault,English,manual_seed
+Short circuit in control wiring harness behind panel door.,Electrical Fault,English,manual_seed
+Solenoid valve coil shorted internally and blowing branch fuse.,Electrical Fault,English,manual_seed
+Short circuit detected in terminal box with visible arc flash.,Electrical Fault,English,manual_seed
+Three-phase feeder conductor shorted to conduit frame causing breaker trip.,Electrical Fault,English,manual_seed
+Contactor auxiliary contacts pitted causing intermittent circuit disconnect.,Electrical Fault,English,manual_seed
+Stator coil dielectric breakdown detected during insulation surge test.,Electrical Fault,English,manual_seed
+Electrical panel busbar joint loose resulting in high resistance heating.,Electrical Fault,English,manual_seed
+Motor junction box terminals showing severe copper burn marks.,Electrical Fault,English,manual_seed
+Earth fault relay tripped after phase line shorted to ground.,Electrical Fault,English,manual_seed
+Circuit breaker thermal overload contacts burnt shut.,Electrical Fault,English,manual_seed
+Current transformer secondary open circuit causing high voltage flash.,Electrical Fault,English,manual_seed
+Terminal block lugs heavily oxidized creating severe arcing.,Electrical Fault,English,manual_seed
+మోటార్ టెర్మినల్ బాక్స్‌లో షార్ట్ సర్క్యూట్ జరిగి స్పార్క్ వస్తోంది.,Electrical Fault,Telugu,manual_seed
+కేబుల్ ఇన్సులేషన్ దెబ్బతిని గ్రౌండ్ ఫాల్ట్ అయింది.,Electrical Fault,Telugu,manual_seed
+కాంటాక్టర్ కాయిల్ కాలిపోయి స్విచ్ ఆన్ కావడం లేదు.,Electrical Fault,Telugu,manual_seed
+త్రీ ఫేజ్ మోటార్ లో ఒక ఫేజ్ కట్ అయి సింగిల్ ఫేజింగ్ వస్తోంది.,Electrical Fault,Telugu,manual_seed
+ఎలక్ట్రికల్ ప్యానెల్ లో ఫ్యూజ్ బ్లో అయిపోయింది.,Electrical Fault,Telugu,manual_seed
+మెయిన్ సర్క్యూట్ బ్రేకర్ ఓవర్‌కరెంట్ వల్ల ట్రిప్ అయింది.,Electrical Fault,Telugu,manual_seed
+మోటార్ వైండింగ్ కాలిపోయి పొగ వస్తోంది.,Electrical Fault,Telugu,manual_seed
+వైరింగ్ కాలిపోయి జంక్షన్ బాక్స్ లో నిప్పురవ్వలు వచ్చాయి.,Electrical Fault,Telugu,manual_seed
+ఎర్త్ లీకేజ్ రిలే పదే పదే ట్రిప్ అవుతోంది.,Electrical Fault,Telugu,manual_seed
+ఫేజ్ టెర్మినల్ లూజ్ కావడం వల్ల ఆర్కింగ్ జరుగుతోంది.,Electrical Fault,Telugu,manual_seed
+కరెంట్ అసమతుల్యత వల్ల మోటార్ కరెంట్ ఎక్కువ తీసుకుంటోంది.,Electrical Fault,Telugu,manual_seed
+స్విచ్‌బోర్డులో వైర్ తెగిపోయి బాడీకి తగిలింది.,Electrical Fault,Telugu,manual_seed
+కంట్రోల్ రిలే కాంటాక్ట్స్ అతుక్కుపోయాయి.,Electrical Fault,Telugu,manual_seed
+మోటార్ కాయిల్ షార్ట్ అయి తీవ్రమైన ఆర్క్ ఫ్లాష్ వచ్చింది.,Electrical Fault,Telugu,manual_seed
+పవర్ కేబుల్ కట్ అయి విద్యుత్ ప్రసారం ఆగిపోయింది.,Electrical Fault,Telugu,manual_seed
+మోటార్ టెర్మినల్స్ వద్ద విద్యుత్ నిప్పురవ్వలు వస్తున్నాయి.,Electrical Fault,Telugu,manual_seed
+వైరింగ్ కాలిపోయి స్విచ్ గేర్ ట్రిప్ అయ్యింది.,Electrical Fault,Telugu,manual_seed
+ఫేజ్ వైర్ బాడీకి తగిలి షార్ట్ సర్క్యూట్ జరిగింది.,Electrical Fault,Telugu,manual_seed
+"Motor terminal box lo short circuit aindi, spark kanipistundi.",Electrical Fault,Telugu-English,manual_seed
+"Contactor coil burn aipoindi, main switch on avvatledu.",Electrical Fault,Telugu-English,manual_seed
+Phase imbalance valla motor breaker trip aindi.,Electrical Fault,Telugu-English,manual_seed
+Stator winding short circuit aipoyi heavy smoke vastundi.,Electrical Fault,Telugu-English,manual_seed
+Earth leakage relay trip aindi cable insulation damage valla.,Electrical Fault,Telugu-English,manual_seed
+Terminal block daggara loose connection valla sparking vastundi.,Electrical Fault,Telugu-English,manual_seed
+Circuit breaker instant overcurrent valla trip aindi.,Electrical Fault,Telugu-English,manual_seed
+Single phasing valla motor abnormal current draw chestundi.,Electrical Fault,Telugu-English,manual_seed
+Fuse blow aipoindi phase 1 line lo short circuit valla.,Electrical Fault,Telugu-English,manual_seed
+Panel board lo arc flash vachindi busbar daggara.,Electrical Fault,Telugu-English,manual_seed
+Control relay contacts weld aipoyayi inrush current valla.,Electrical Fault,Telugu-English,manual_seed
+Insulation resistance low ga undi phase-to-ground short valla.,Electrical Fault,Telugu-English,manual_seed
+Power cable burnt smell vastundi terminal box nunchi.,Electrical Fault,Telugu-English,manual_seed
+Capacitor cell burst aindi power factor cabinet lo.,Electrical Fault,Telugu-English,manual_seed
+Solenoid coil short circuit aipoyi circuit breaker trip chestundi.,Electrical Fault,Telugu-English,manual_seed
+"Motor phase winding cut aindi, continuity ledu.",Electrical Fault,Telugu-English,manual_seed
+415V line short circuit to ground tripped upstream breaker.,Electrical Fault,Telugu-English,manual_seed
+Cable insulation crack ayyi conductive metal ki touch aindi.,Electrical Fault,Telugu-English,manual_seed
+Motor lead wire burned and sparks observed.,Electrical Fault,Telugu-English,manual_seed
+Switchgear feeder contact resistance is abnormally high.,Electrical Fault,Telugu-English,manual_seed
+Terminal box lo electrical arcing smell vastundi.,Electrical Fault,Telugu-English,manual_seed
+Circuit breaker instant magnetic trip aindi short circuit valla.,Electrical Fault,Telugu-English,manual_seed
+Temperature sensor gives incorrect readings while actual fluid is ambient.,Sensor Fault,English,manual_seed
+Pressure transmitter output signal is locked at 4 mA irrespective of actual line pressure.,Sensor Fault,English,manual_seed
+Optical proximity sensor lens is blinded and fails to detect metal parts.,Sensor Fault,English,manual_seed
+Rotary optical encoder lost pulse count causing positioning discrepancies.,Sensor Fault,English,manual_seed
+RTD temperature probe resistance drifted by 150 ohms causing false alarm.,Sensor Fault,English,manual_seed
+Ultrasonic tank level sensor echo signal lost due to transducer element defect.,Sensor Fault,English,manual_seed
+Thermocouple wire opened showing off-scale negative temperature value.,Sensor Fault,English,manual_seed
+Magnetic reed switch stuck closed even after cylinder magnet moves away.,Sensor Fault,English,manual_seed
+Vibration accelerometer cable loose giving noisy sporadic spikes on monitor.,Sensor Fault,English,manual_seed
+Electromagnetic flowmeter reading zero flow while pump is visibly discharging fluid.,Sensor Fault,English,manual_seed
+Differential pressure cell diaphragm damaged producing constant 20 mA signal.,Sensor Fault,English,manual_seed
+Photoelectric safety light curtain emitter diode failed.,Sensor Fault,English,manual_seed
+Laser distance sensor returning error code E04 out of range measurement.,Sensor Fault,English,manual_seed
+pH probe electrode glass bulb cracked causing output voltage to drop to 0 mV.,Sensor Fault,English,manual_seed
+Tachometer pickup sensor misses teeth on target wheel producing erratic speed data.,Sensor Fault,English,manual_seed
+Limit switch mechanical arm broken and contacts never actuate.,Sensor Fault,English,manual_seed
+Humidity transmitter reading 100% relative humidity in dry oven environment.,Sensor Fault,English,manual_seed
+Load cell Wheatstone bridge circuit has an open strain gauge branch.,Sensor Fault,English,manual_seed
+Infrared pyrometer optics contaminated giving 50 degree offset error.,Sensor Fault,English,manual_seed
+Inductive proximity switch LED remains lit constantly without metal target.,Sensor Fault,English,manual_seed
+Gas detector sensor cell poisoned and unresponsive to test calibration gas.,Sensor Fault,English,manual_seed
+Current transducer hall effect sensor gives zero millivolt output under load.,Sensor Fault,English,manual_seed
+Level float switch mercury bulb cracked inside housing.,Sensor Fault,English,manual_seed
+Speed sensor pickup gap too large resulting in dropped pulses.,Sensor Fault,English,manual_seed
+Torque transducer calibration drifted by 20% on test bench.,Sensor Fault,English,manual_seed
+The temperature sensor is showing incorrect values.,Sensor Fault,English,manual_seed
+The temperature sensor is giving incorrect readings while pipe is cold.,Sensor Fault,English,manual_seed
+Temperature probe reading 120 C but actual line temperature is only 25 C.,Sensor Fault,English,manual_seed
+Thermocouple millivolt output fluctuating wildly due to broken junction.,Sensor Fault,English,manual_seed
+Pressure transmitter zero offset shifted by 15 PSI after pressure surge.,Sensor Fault,English,manual_seed
+Optical proximity switch not responding to passing steel targets.,Sensor Fault,English,manual_seed
+Rotary encoder missing quadrature counts causing position drift.,Sensor Fault,English,manual_seed
+Vibration sensor output wire broken giving zero millivolts reading.,Sensor Fault,English,manual_seed
+Ultrasonic level transmitter signal lost due to defective transducer element.,Sensor Fault,English,manual_seed
+Flowmeter sensor reading zero liters despite visible liquid flow in sight glass.,Sensor Fault,English,manual_seed
+టెంపరేచర్ సెన్సార్ తప్పుడు రీడింగ్స్ చూపిస్తోంది.,Sensor Fault,Telugu,manual_seed
+ప్రెషర్ ట్రాన్స్‌మిటర్ అవుట్‌పుట్ సిగ్నల్ స్టక్ అయి మారింది లేదు.,Sensor Fault,Telugu,manual_seed
+ప్రాక్సిమిటీ సెన్సార్ వస్తువును గుర్తించడం లేదు.,Sensor Fault,Telugu,manual_seed
+ఎన్‌కోడర్ పల్స్ సిగ్నల్ మిస్ అయి పొజిషన్ తప్పుగా వస్తోంది.,Sensor Fault,Telugu,manual_seed
+థర్మోకపుల్ వైర్ తెగిపోయి స్క్రీన్ పై ఓపెన్ సర్క్యూట్ ఎర్రర్ వచ్చింది.,Sensor Fault,Telugu,manual_seed
+లెవల్ సెన్సార్ ట్యాంక్ ఖాళీగా ఉన్నా ఫుల్ అని రీడింగ్ ఇస్తోంది.,Sensor Fault,Telugu,manual_seed
+ఫ్లోమీటర్ సెన్సార్ నుంచి ఎలాంటి అవుట్‌పుట్ సిగ్నల్ రావడం లేదు.,Sensor Fault,Telugu,manual_seed
+లిమిట్ స్విచ్ లివర్ జామ్ అయి కాంటాక్ట్ క్లోజ్ అవ్వట్లేదు.,Sensor Fault,Telugu,manual_seed
+ఫోటోఎలెక్ట్రిక్ సెన్సార్ లైట్ బీమ్ ఆగిపోయింది.,Sensor Fault,Telugu,manual_seed
+స్పీడ్ సెన్సార్ రాంగ్ రీడింగ్ ఇవ్వడం వల్ల ఆర్పీఎమ్ జీరో చూపిస్తోంది.,Sensor Fault,Telugu,manual_seed
+సెన్సార్ వైర్ లూజ్ అయి సిగ్నల్ ఫ్లక్చుయేట్ అవుతోంది.,Sensor Fault,Telugu,manual_seed
+వైబ్రేషన్ సెన్సార్ సెన్సిటివిటీ కోల్పోయి రీడింగ్స్ ఆగిపోయాయి.,Sensor Fault,Telugu,manual_seed
+సెన్సార్ కాలిబ్రేషన్ డ్రిఫ్ట్ అయి తప్పు విలువలు చూపిస్తోంది.,Sensor Fault,Telugu,manual_seed
+ఆప్టికల్ సెన్సార్ లెన్స్ పాడై పార్ట్స్ డిటెక్ట్ చేయట్లేదు.,Sensor Fault,Telugu,manual_seed
+ప్రెషర్ సెన్సార్ పైపులో ప్రెషర్ ఉన్నా సున్నా బార్ చూపిస్తోంది.,Sensor Fault,Telugu,manual_seed
+ఉష్ణోగ్రత సెన్సార్ కాలిబ్రేషన్ తప్పి తప్పుడు విలువలు ఇస్తోంది.,Sensor Fault,Telugu,manual_seed
+ప్రెజర్ ట్రాన్స్‌మిటర్ అవుట్‌పుట్ 4 ఎంఏ వద్ద స్థిరంగా ఉండిపోయింది.,Sensor Fault,Telugu,manual_seed
+ప్రాక్సిమిటీ సెన్సార్ పనిచేయక పొజిషన్ సిగ్నల్ మిస్ అయింది.,Sensor Fault,Telugu,manual_seed
+"Temperature sensor incorrect reading istundi, actual temperature normal ga undi.",Sensor Fault,Telugu-English,manual_seed
+"Pressure transmitter drift aipoindi, wrong pressure display chestundi.",Sensor Fault,Telugu-English,manual_seed
+Proximity sensor target detect cheyatledu metal vachina kuda.,Sensor Fault,Telugu-English,manual_seed
+"Rotary encoder pulses miss chestundi, position error vastundi.",Sensor Fault,Telugu-English,manual_seed
+"Thermocouple probe open circuit aindi, value negative chupistundi.",Sensor Fault,Telugu-English,manual_seed
+Level sensor tank empty unna full reading display chestundi.,Sensor Fault,Telugu-English,manual_seed
+Flow sensor output 0 mA ki lock aindi running pump lo.,Sensor Fault,Telugu-English,manual_seed
+Vibration accelerometer sensor cable loose ayyi spikes vastunnayi.,Sensor Fault,Telugu-English,manual_seed
+"Limit switch actuator break aindi, contact close avvatledu.",Sensor Fault,Telugu-English,manual_seed
+Photo sensor optical beam cut aindi internal diode fail valla.,Sensor Fault,Telugu-English,manual_seed
+"Speed sensor pickup pulses ivvatledu, RPM zero chupistundi.",Sensor Fault,Telugu-English,manual_seed
+Load cell calibration offset aindi 25 kg variance tho.,Sensor Fault,Telugu-English,manual_seed
+RTD sensor resistance fluctuate avtundi wrong temperature data tho.,Sensor Fault,Telugu-English,manual_seed
+Laser sensor distance wrong ga calculate chestundi optics damage valla.,Sensor Fault,Telugu-English,manual_seed
+Inductive switch constantly ON position lo undi object lekapoyina.,Sensor Fault,Telugu-English,manual_seed
+Safety light curtain sensor fault status lo undi.,Sensor Fault,Telugu-English,manual_seed
+Gas detector sensor calibration fail aindi zero response tho.,Sensor Fault,Telugu-English,manual_seed
+Hall sensor output signal drop aipoindi.,Sensor Fault,Telugu-English,manual_seed
+Analog input channel lo sensor noise heavy ga undi.,Sensor Fault,Telugu-English,manual_seed
+Sensor reading looks wrong compared to gauge reading.,Sensor Fault,Telugu-English,manual_seed
+Temperature sensor continuous ga wrong reading display chestundi.,Sensor Fault,Telugu-English,manual_seed
+Pressure transducer output drift ayyi wrong measurement istundi.,Sensor Fault,Telugu-English,manual_seed
+Motor is overheating and housing surface temperature reached 115 degrees Celsius.,Temperature Fault,English,manual_seed
+Gearbox oil temperature exceeded maximum allowable thermal limit of 95C.,Temperature Fault,English,manual_seed
+Bearing housing is running dangerously hot to the touch.,Temperature Fault,English,manual_seed
+Cooling heat exchanger thermal capacity insufficient causing severe coolant overheating.,Temperature Fault,English,manual_seed
+Compressor discharge air temperature exceeded safety trip threshold.,Temperature Fault,English,manual_seed
+Furnace refractory wall has a severe thermal hot spot radiating extreme heat.,Temperature Fault,English,manual_seed
+Hydraulic reservoir fluid temperature rising continuously towards thermal runaway.,Temperature Fault,English,manual_seed
+Electrical cabinet internal ambient temperature reached 65C tripping thermal relays.,Temperature Fault,English,manual_seed
+Turbine exhaust temperature spread abnormally high indicating uneven combustion heat.,Temperature Fault,English,manual_seed
+Extruder heating zone 3 temperature dropped far below processing setpoint.,Temperature Fault,English,manual_seed
+Transformer oil temperature high alarm sounded in substation.,Temperature Fault,English,manual_seed
+Chiller evaporator temperature freezing up due to low refrigeration pressure.,Temperature Fault,English,manual_seed
+Brake friction disc overheating rapidly during emergency deceleration cycles.,Temperature Fault,English,manual_seed
+Molding die tool temperature gradient uneven across upper and lower plates.,Temperature Fault,English,manual_seed
+VFD heat sink temperature over-limit warning active.,Temperature Fault,English,manual_seed
+Induction motor stator temperature reached class H thermal insulation threshold.,Temperature Fault,English,manual_seed
+Boiler steam drum metal temperature gradient exceeding thermal stress limits.,Temperature Fault,English,manual_seed
+Oil cooler clogged causing high temperature warning on lubrication loop.,Temperature Fault,English,manual_seed
+Centrifugal pump casing extremely hot and fluid vaporizing inside.,Temperature Fault,English,manual_seed
+Thermal overload trip on conveyor drive after prolonged overheating.,Temperature Fault,English,manual_seed
+Machine is getting very hot after running for thirty minutes.,Temperature Fault,English,manual_seed
+Spindle temperature alarm triggered due to inadequate cooling circulation.,Temperature Fault,English,manual_seed
+Reactor vessel jacket temperature out of control and heating rapidly.,Temperature Fault,English,manual_seed
+Hot air blower temperature regulation failure resulting in thermal excess.,Temperature Fault,English,manual_seed
+Cutting tool workpiece interface experiencing extreme thermal burning.,Temperature Fault,English,manual_seed
+The motor is overheating and surface temperature exceeded 110 degrees.,Temperature Fault,English,manual_seed
+Motor casing is extremely hot to the touch while current draw is nominal.,Temperature Fault,English,manual_seed
+Gearbox thermal buildup exceeded maximum safe operating temperature of 95C.,Temperature Fault,English,manual_seed
+Hydraulic oil cooler blocked causing continuous thermal rise in reservoir.,Temperature Fault,English,manual_seed
+Bearing temperature rose rapidly to 105 degrees Celsius triggering alarm.,Temperature Fault,English,manual_seed
+Extruder heating zone temperature runaway reached thermal hazard limit.,Temperature Fault,English,manual_seed
+Centrifugal pump casing blistering hot due to dry running friction heat.,Temperature Fault,English,manual_seed
+Compressor discharge air reached critical 120 C thermal shutdown setpoint.,Temperature Fault,English,manual_seed
+Transformer winding thermal gauge indicates critical overheating condition.,Temperature Fault,English,manual_seed
+Cooling circuit failure caused spindle unit temperature to surge to 85C.,Temperature Fault,English,manual_seed
+"మోటార్ చాలా వేడెక్కిపోతోంది, ముట్టుకుంటే కాలిపోయేలా ఉంది.",Temperature Fault,Telugu,manual_seed
+గేర్‌బాక్స్ ఆయిల్ టెంపరేచర్ 95 డిగ్రీల కంటే ఎక్కువ పెరిగింది.,Temperature Fault,Telugu,manual_seed
+బేరింగ్ వేడి ఎక్కిపోయి పొగ వస్తోంది.,Temperature Fault,Telugu,manual_seed
+కూలింగ్ సిస్టమ్ ఉన్నప్పటికీ ఇంజిన్ ఓవర్‌హీట్ అవుతోంది.,Temperature Fault,Telugu,manual_seed
+మెషిన్ టెంపరేచర్ సేఫ్టీ లిమిట్ దాటిపోయి అలారం మోగింది.,Temperature Fault,Telugu,manual_seed
+హైడ్రాలిక్ ఆయిల్ వేడెక్కి థర్మల్ ప్రొటెక్షన్ ట్రిప్ అయింది.,Temperature Fault,Telugu,manual_seed
+కంప్రెసర్ ఎగ్జాస్ట్ గాలి ఉష్ణోగ్రత చాలా ప్రమాదకరంగా పెరిగింది.,Temperature Fault,Telugu,manual_seed
+ఎలక్ట్రికల్ ప్యానెల్ లోపల ఉష్ణోగ్రత విపరీతంగా పెరిగిపోయింది.,Temperature Fault,Telugu,manual_seed
+ట్రాన్స్‌ఫార్మర్ ఆయిల్ వేడెక్కి హై టెంపరేచర్ అలారం వచ్చింది.,Temperature Fault,Telugu,manual_seed
+స్పిండిల్ వేడెక్కిపోయి మెషిన్ ఆగిపోయింది.,Temperature Fault,Telugu,manual_seed
+హీటర్ కంట్రోల్ ఫెయిల్ అయి విపరీతమైన వేడి పుడుతోంది.,Temperature Fault,Telugu,manual_seed
+చిల్లర్ కూలెంట్ చల్లబడకుండా టెంపరేచర్ పెరుగుతోంది.,Temperature Fault,Telugu,manual_seed
+బ్రేక్ డిస్క్ వేడెక్కి ఎర్రగా మారుతోంది.,Temperature Fault,Telugu,manual_seed
+డ్రైవ్ మోటార్ థర్మల్ ఓవర్‌లోడ్ వల్ల ఆటోమేటిక్ గా షట్‌డౌన్ అయింది.,Temperature Fault,Telugu,manual_seed
+ఓవెన్ ఉష్ణోగ్రత సెట్ పాయింట్ కంటే చాలా ఎక్కువ చేరుకుంది.,Temperature Fault,Telugu,manual_seed
+మెషిన్ బాడీ విపరీతంగా వేడెక్కిపోయి థర్మల్ అలారం మోగుతోంది.,Temperature Fault,Telugu,manual_seed
+మోటార్ కూలింగ్ ఫ్యాన్ ఉన్నప్పటికీ ఉష్ణోగ్రత 100 డిగ్రీలు దాటింది.,Temperature Fault,Telugu,manual_seed
+ఆయిల్ చాలా వేడెక్కి థర్మల్ కట్-ఆఫ్ స్విచ్ యాక్టివేట్ అయింది.,Temperature Fault,Telugu,manual_seed
+"Motor chala heat avutundi, thermal protection trip aipoindi.",Temperature Fault,Telugu-English,manual_seed
+Bearing temperature continuous ga increase avtundi 90C daatindi.,Temperature Fault,Telugu-English,manual_seed
+Gearbox oil overheat aindi cooling failure valla.,Temperature Fault,Telugu-English,manual_seed
+Machine body chala hot ga aindi operation start chesina 20 mins lo.,Temperature Fault,Telugu-English,manual_seed
+"Hydraulic oil temperature limit exceed aindi, thermal alarm active.",Temperature Fault,Telugu-English,manual_seed
+Compressor discharge air chala వేడిగా వస్తోంది safe limit kante.,Temperature Fault,Telugu-English,manual_seed
+Panel cooling fan aagipoyi cabinet temperature high aipoindi.,Temperature Fault,Telugu-English,manual_seed
+VFD heat sink temperature over-limit trip aindi.,Temperature Fault,Telugu-English,manual_seed
+Pump casing extreme heat tho run avtundi fluid vaporize avtundi.,Temperature Fault,Telugu-English,manual_seed
+Heater chamber temperature regulation fail ayyi extreme heat undi.,Temperature Fault,Telugu-English,manual_seed
+Motor winding thermal sensor high temperature alarm istundi.,Temperature Fault,Telugu-English,manual_seed
+Transformer oil temperature high trip trigger aindi.,Temperature Fault,Telugu-English,manual_seed
+Spindle unit over heating problem valla operation halt chesam.,Temperature Fault,Telugu-English,manual_seed
+Cooling loop heat exchanger blocked valla temperature rise aindi.,Temperature Fault,Telugu-English,manual_seed
+Brake disc heat up aipoyi smoke smell vastundi.,Temperature Fault,Telugu-English,manual_seed
+Thermal cut-off switch activated due to motor overheating.,Temperature Fault,Telugu-English,manual_seed
+Machine running lo excessive thermal heat generate avtundi.,Temperature Fault,Telugu-English,manual_seed
+Oven temperature control out of bounds heating continuously.,Temperature Fault,Telugu-English,manual_seed
+Exhaust temperature high warning displayed on panel.,Temperature Fault,Telugu-English,manual_seed
+Bearing thermal trip triggered repeatedly.,Temperature Fault,Telugu-English,manual_seed
+Motor chala heat aipoyi thermal overload switch trip aindi.,Temperature Fault,Telugu-English,manual_seed
+Gearbox oil thermal alarm trigger aindi 95 degrees exceed valla.,Temperature Fault,Telugu-English,manual_seed
+Control software crashes during startup with segmentation fault.,Software Fault,English,manual_seed
+HMI display application froze on main menu and stopped responding to touches.,Software Fault,English,manual_seed
+SCADA runtime encountered an unhandled null pointer exception.,Software Fault,English,manual_seed
+PLC firmware watchdog timeout error triggered sudden system halt.,Software Fault,English,manual_seed
+Recipe management database crashed due to corrupted SQLite index file.,Software Fault,English,manual_seed
+Motion controller software task entered an infinite execution loop.,Software Fault,English,manual_seed
+Memory leak in data logging daemon exhausted system RAM after 48 hours.,Software Fault,English,manual_seed
+Operating system blue screen error displayed on industrial PC console.,Software Fault,English,manual_seed
+Configuration script syntax error caused parameter loading to abort.,Software Fault,English,manual_seed
+Alarm logging software service terminated unexpectedly with exit code 139.,Software Fault,English,manual_seed
+Vision inspection software threw an access violation in image processing DLL.,Software Fault,English,manual_seed
+Batch execution engine deadlocked waiting for shared memory mutex.,Software Fault,English,manual_seed
+Firmware upgrade failed leaving microcontroller in unbootable brick state.,Software Fault,English,manual_seed
+User interface application threw an out of memory error during report generation.,Software Fault,English,manual_seed
+Robotic trajectory planning algorithm threw mathematical divide by zero exception.,Software Fault,English,manual_seed
+Security authentication daemon hanging and denying all valid operator logins.,Software Fault,English,manual_seed
+Real-time task scheduler missed deadline in cyclic execution thread.,Software Fault,English,manual_seed
+HMI script runtime error line 42 variable undefined.,Software Fault,English,manual_seed
+Data acquisition driver crashed after invalid registry configuration.,Software Fault,English,manual_seed
+Automated test sequence script crashed during regression cycle.,Software Fault,English,manual_seed
+PLC logic routine stuck in while loop blocking cycle execution.,Software Fault,English,manual_seed
+Industrial PC file system corrupted leading to operating system boot failure.,Software Fault,English,manual_seed
+OPC UA server software stack overflow in tag browsing method.,Software Fault,English,manual_seed
+Telemetry recording service failed with database locked error.,Software Fault,English,manual_seed
+Operator touchscreen UI crashed and dropped to Windows desktop.,Software Fault,English,manual_seed
+Control software crashes during boot sequence with memory fault.,Software Fault,English,manual_seed
+HMI touchscreen application unresponsive and frozen on main view.,Software Fault,English,manual_seed
+Controller firmware task deadlocked waiting for shared mutex.,Software Fault,English,manual_seed
+Recipe manager software crashed with database access violation.,Software Fault,English,manual_seed
+SCADA trend display software terminated with unhandled exception.,Software Fault,English,manual_seed
+Motion controller positioning program threw numerical overflow error.,Software Fault,English,manual_seed
+Industrial PC software locked in blue screen memory dump.,Software Fault,English,manual_seed
+Data logging daemon crashed after operating system file descriptor exhaustion.,Software Fault,English,manual_seed
+Batch execution routine halted due to null pointer dereference in logic.,Software Fault,English,manual_seed
+Automated sequence script failed to load due to corrupted syntax file.,Software Fault,English,manual_seed
+కంట్రోల్ సాఫ్ట్‌వేర్ స్టార్ట్ కాగానే క్రాష్ అవుతోంది.,Software Fault,Telugu,manual_seed
+HMI టచ్ స్క్రీన్ అప్లికేషన్ ఫ్రీజ్ అయి రెస్పాండ్ అవ్వడం లేదు.,Software Fault,Telugu,manual_seed
+మెషిన్ సాఫ్ట్‌వేర్‌లో రన్‌టైమ్ ఎర్రర్ వచ్చి సిస్టమ్ ఆగిపోయింది.,Software Fault,Telugu,manual_seed
+PLC ఫర్మ్‌వేర్ వాచ్‌డాగ్ టైమ్‌అవుట్ ఎర్రర్ ఇచ్చింది.,Software Fault,Telugu,manual_seed
+డేటాబేస్ క్రాష్ అవ్వడం వల్ల రెసిపీ లోడ్ కావడం లేదు.,Software Fault,Telugu,manual_seed
+ఆపరేటింగ్ సిస్టమ్ బ్లూ స్క్రీన్ ఎర్రర్ చూపిస్తోంది.,Software Fault,Telugu,manual_seed
+మెమరీ లీక్ వల్ల సాఫ్ట్‌వేర్ చాలా స్లో అయి ఆగిపోయింది.,Software Fault,Telugu,manual_seed
+విజన్ ప్రాసెసింగ్ సాఫ్ట్‌వేర్ ఫైల్ ఎర్రర్ వల్ల క్లోజ్ అయింది.,Software Fault,Telugu,manual_seed
+సాఫ్ట్‌వేర్ రీబూట్ లూప్‌లో పడి లాగిన్ పేజీ రావడం లేదు.,Software Fault,Telugu,manual_seed
+స్క్రిప్ట్ ఎర్రర్ వల్ల ఆటోమేటిక్ ప్రోగ్రామ్ రన్ అవ్వడం ఆగిపోయింది.,Software Fault,Telugu,manual_seed
+HMI స్క్రీన్‌పై అన్‌హ్యాండిల్డ్ ఎక్సెప్షన్ మెసేజ్ వస్తోంది.,Software Fault,Telugu,manual_seed
+సాఫ్ట్‌వేర్ అప్‌డేట్ తర్వాత ప్రోగ్రామ్ ఓపెన్ అవ్వడం లేదు.,Software Fault,Telugu,manual_seed
+ట్రాజెక్టరీ ప్లానింగ్ ప్రోగ్రామ్ క్రాష్ అయి రోబోట్ ఆగింది.,Software Fault,Telugu,manual_seed
+కంట్రోలర్ సాఫ్ట్‌వేర్ డెడ్‌లాక్ అయి కమాండ్స్ తీసుకోవట్లేదు.,Software Fault,Telugu,manual_seed
+లాగిన్ సర్వీస్ సాఫ్ట్‌వేర్ రెస్పాన్స్ ఇవ్వట్లేదు.,Software Fault,Telugu,manual_seed
+కంట్రోల్ సాఫ్ట్‌వేర్ ఫ్రీజ్ అయి ఎలాంటి ఆదేశాలు తీసుకోవడం లేదు.,Software Fault,Telugu,manual_seed
+రన్‌టైమ్ ఎక్సెప్షన్ వల్ల ఆపరేటింగ్ ప్రోగ్రామ్ క్లోజ్ అయింది.,Software Fault,Telugu,manual_seed
+HMI అప్లికేషన్ స్టార్టప్‌లో ఎర్రర్ వచ్చి ఆగిపోయింది.,Software Fault,Telugu,manual_seed
+Control software startup lo crash aindi segmentation fault valla.,Software Fault,Telugu-English,manual_seed
+"HMI screen freeze aipoindi, touch screen buttons respond avvatledu.",Software Fault,Telugu-English,manual_seed
+SCADA runtime application lo null pointer exception error vachindi.,Software Fault,Telugu-English,manual_seed
+PLC firmware watchdog timeout error trigger aindi.,Software Fault,Telugu-English,manual_seed
+Recipe database corrupt aipoyi batch program load avvatledu.,Software Fault,Telugu-English,manual_seed
+Software memory leak valla system RAM full aipoyi hang aindi.,Software Fault,Telugu-English,manual_seed
+Industrial PC lo blue screen dump error vachindi.,Software Fault,Telugu-English,manual_seed
+Vision camera software processing DLL crash aipoindi.,Software Fault,Telugu-English,manual_seed
+Script runtime error line 54 undefined variable error undi.,Software Fault,Telugu-English,manual_seed
+Firmware update fail ayyi controller boot loop lo paddadi.,Software Fault,Telugu-English,manual_seed
+Operator application sudden ga terminate aindi exit code 139 tho.,Software Fault,Telugu-English,manual_seed
+Motion control task deadlock aipoyi commands execute avvatledu.,Software Fault,Telugu-English,manual_seed
+HMI display crash ayyi Windows desktop kanipistundi.,Software Fault,Telugu-English,manual_seed
+Telemetry logging service memory allocation error valla aagipoindi.,Software Fault,Telugu-English,manual_seed
+Trajectory algorithm divide by zero exception raise chesindi.,Software Fault,Telugu-English,manual_seed
+Software configuration file parse error throwing exception.,Software Fault,Telugu-English,manual_seed
+Batch controller program thread stuck in infinite loop.,Software Fault,Telugu-English,manual_seed
+SCADA graphics engine failed to render plant mimic display.,Software Fault,Telugu-English,manual_seed
+Control application unhandled exception caught at runtime.,Software Fault,Telugu-English,manual_seed
+PLC cyclic task execution time overrun fault occurred.,Software Fault,Telugu-English,manual_seed
+Control software segmentation fault valla suddenly crash aindi.,Software Fault,Telugu-English,manual_seed
+SCADA application hang aipoindi operator input tiskovatledu.,Software Fault,Telugu-English,manual_seed
+Power supply voltage is unstable with severe oscillations between 18V and 26V.,Power Supply Fault,English,manual_seed
+24V DC switch-mode power supply unit failed and output dropped to zero volts.,Power Supply Fault,English,manual_seed
+UPS battery bank failed discharge test and cannot support inverter load during blackout.,Power Supply Fault,English,manual_seed
+Main control transformer secondary output voltage dropped below 190V AC.,Power Supply Fault,English,manual_seed
+DC power distribution bus has excessive high-frequency voltage ripple.,Power Supply Fault,English,manual_seed
+Redundant power supply module A failed with blinking red fault LED.,Power Supply Fault,English,manual_seed
+Industrial PC ATX power supply internal cooling fan stopped and unit overheated.,Power Supply Fault,English,manual_seed
+Emergency power transfer switch failed to engage auxiliary diesel generator.,Power Supply Fault,English,manual_seed
+DC-DC buck converter output capacitor swelled and leaking electrolyte.,Power Supply Fault,English,manual_seed
+Constant voltage regulator output fluctuating violently under inductive load.,Power Supply Fault,English,manual_seed
+Battery charger failed to deliver float charging current to station batteries.,Power Supply Fault,English,manual_seed
+AC line voltage sag caused brownout shutdown of all 24V DC auxiliary power supplies.,Power Supply Fault,English,manual_seed
+Power supply crowbar overvoltage protection circuit latched on false trigger.,Power Supply Fault,English,manual_seed
+Auxiliary power supply fuse blown on the 12V instrumentation supply rail.,Power Supply Fault,English,manual_seed
+Rectifier bridge diode open circuit causing high DC voltage ripple and low output.,Power Supply Fault,English,manual_seed
+Control cabinet 24V busbar shorted to ground through power supply chassis.,Power Supply Fault,English,manual_seed
+Inverter DC link voltage collapsed under motor starting transient.,Power Supply Fault,English,manual_seed
+Stationary battery cell #7 has dropped to 0.4V cell potential.,Power Supply Fault,English,manual_seed
+Linear power supply thermal regulator shut down due to continuous current overload.,Power Supply Fault,English,manual_seed
+Solar panel charge controller output voltage dropped to zero during daylight.,Power Supply Fault,English,manual_seed
+PLC power supply module red light glowing indicating internal fault.,Power Supply Fault,English,manual_seed
+Control power transformer primary winding open circuit.,Power Supply Fault,English,manual_seed
+48V DC telecom battery rectifier module blown.,Power Supply Fault,English,manual_seed
+Regulated power supply output collapsed when load exceeded 5 amperes.,Power Supply Fault,English,manual_seed
+Generator automatic voltage regulator failed causing 300V surge.,Power Supply Fault,English,manual_seed
+The power supply voltage is unstable with fluctuating DC output.,Power Supply Fault,English,manual_seed
+24V DC auxiliary rail voltage dropped to 16V under control load.,Power Supply Fault,English,manual_seed
+Switch-mode power supply output dropped completely to zero volts.,Power Supply Fault,English,manual_seed
+UPS backup battery failed load test and cannot supply inverter.,Power Supply Fault,English,manual_seed
+Control transformer secondary output collapsed below permissible voltage.,Power Supply Fault,English,manual_seed
+Main 24V power supply module red error indicator glowing steadily.,Power Supply Fault,English,manual_seed
+Switching power supply internal fuse blown with noticeable burning odor.,Power Supply Fault,English,manual_seed
+DC busbar voltage fluctuating wildly causing controller reboots.,Power Supply Fault,English,manual_seed
+Battery charger failed to provide float charge to 110V DC station batteries.,Power Supply Fault,English,manual_seed
+Power supply overvoltage crowbar circuit tripped on voltage transient.,Power Supply Fault,English,manual_seed
+24V పవర్ సప్లై వోల్టేజ్ పడిపోయి సున్నా వోల్ట్స్ చూపిస్తోంది.,Power Supply Fault,Telugu,manual_seed
+"UPS బ్యాటరీ బ్యాకప్ ఫెయిల్ అయింది, కరెంట్ పోగానే సిస్టమ్ ఆగిపోయింది.",Power Supply Fault,Telugu,manual_seed
+పవర్ సప్లై యూనిట్ నుంచి వోల్టేజ్ ఫ్లక్చుయేట్ అవుతోంది.,Power Supply Fault,Telugu,manual_seed
+SMPS పవర్ యూనిట్ కాలిపోయి రెడ్ లైట్ వెలుగుతోంది.,Power Supply Fault,Telugu,manual_seed
+కంట్రోల్ ట్రాన్స్‌ఫార్మర్ అవుట్‌పుట్ వోల్టేజ్ రావడం లేదు.,Power Supply Fault,Telugu,manual_seed
+మెయిన్ DC బస్‌బార్ వోల్టేజ్ తగ్గిపోయి కంట్రోలర్ రీస్టార్ట్ అవుతోంది.,Power Supply Fault,Telugu,manual_seed
+బ్యాటరీ ఛార్జర్ యూనిట్ బ్యాటరీలను ఛార్జ్ చేయడం లేదు.,Power Supply Fault,Telugu,manual_seed
+పవర్ సప్లై ఓవర్‌లోడ్ ప్రొటెక్షన్ ట్రిప్ అయింది.,Power Supply Fault,Telugu,manual_seed
+ఇన్వర్టర్ సర్క్యూట్ ఫెయిల్ అయి బ్యాకప్ పవర్ రాలేదు.,Power Supply Fault,Telugu,manual_seed
+వోల్టేజ్ రెగ్యులేటర్ పాడై అస్థిరమైన విద్యుత్ ప్రసారం అవుతోంది.,Power Supply Fault,Telugu,manual_seed
+PLC పవర్ సప్లై మాడ్యూల్ పాడైపోయింది.,Power Supply Fault,Telugu,manual_seed
+రెక్టిఫైయర్ యూనిట్ నుంచి DC వోల్టేజ్ సరిగ్గా రావడం లేదు.,Power Supply Fault,Telugu,manual_seed
+ఆక్సిలరీ పవర్ సప్లై ఫ్యూజ్ ఎగిరిపోయింది.,Power Supply Fault,Telugu,manual_seed
+డీజిల్ జనరేటర్ AVR ఫెయిల్యూర్ వల్ల వోల్టేజ్ విపరీతంగా పెరిగింది.,Power Supply Fault,Telugu,manual_seed
+పవర్ ప్యాక్ కెపాసిటర్ వాచిపోయి పవర్ డ్రాప్ అయింది.,Power Supply Fault,Telugu,manual_seed
+పవర్ సప్లై వోల్టేజ్ హెచ్చుతగ్గులతో అస్థిరంగా ఉంది.,Power Supply Fault,Telugu,manual_seed
+24V SMPS యూనిట్ ఆగిపోయి విద్యుత్ ప్రసారం నిలిచిపోయింది.,Power Supply Fault,Telugu,manual_seed
+UPS బ్యాటరీ డిశ్చార్జ్ అయి పవర్ సపోర్ట్ ఇవ్వలేకపోయింది.,Power Supply Fault,Telugu,manual_seed
+"24V DC power supply voltage drop aindi 14V ki, system shutdown aindi.",Power Supply Fault,Telugu-English,manual_seed
+"UPS battery backup fail aindi, power cut avvagane line freeze aindi.",Power Supply Fault,Telugu-English,manual_seed
+"SMPS power unit nunchi zero output voltage vastundi, red LED glowing.",Power Supply Fault,Telugu-English,manual_seed
+Control panel power supply continuously fluctuate avtundi under load.,Power Supply Fault,Telugu-English,manual_seed
+"DC busbar voltage unstable ga undi, heavy ripple undi.",Power Supply Fault,Telugu-English,manual_seed
+Redundant power module A failure alert display chestundi.,Power Supply Fault,Telugu-English,manual_seed
+Control transformer secondary output drop aindi below 180V.,Power Supply Fault,Telugu-English,manual_seed
+Battery charger float charging current ivvatledu station battery ki.,Power Supply Fault,Telugu-English,manual_seed
+Power supply fuse blow aindi auxiliary 12V line lo.,Power Supply Fault,Telugu-English,manual_seed
+Inverter DC link voltage collapse aindi starting transient valla.,Power Supply Fault,Telugu-English,manual_seed
+Rectifier bridge failure valla DC output voltage low aindi.,Power Supply Fault,Telugu-English,manual_seed
+PLC power module internal fault valla PLC shut aipoindi.,Power Supply Fault,Telugu-English,manual_seed
+Voltage regulator output fluctuate avvadam valla boards reset avtunnayi.,Power Supply Fault,Telugu-English,manual_seed
+Emergency transfer switch generator backup power ivvatledu.,Power Supply Fault,Telugu-English,manual_seed
+DC-DC buck converter output zero volts chupistundi.,Power Supply Fault,Telugu-English,manual_seed
+Switch mode power supply thermal trip aindi cooling fan failure valla.,Power Supply Fault,Telugu-English,manual_seed
+Station battery cell voltage drastically drop aipoindi.,Power Supply Fault,Telugu-English,manual_seed
+Control power brownout triggered protective shutdown.,Power Supply Fault,Telugu-English,manual_seed
+Power pack internal capacitor exploded smell vastundi.,Power Supply Fault,Telugu-English,manual_seed
+Auxiliary DC rail voltage unstable with high noise.,Power Supply Fault,Telugu-English,manual_seed
+Power supply voltage drop aipoyi 24V rail 12V ki padipoyindi.,Power Supply Fault,Telugu-English,manual_seed
+SMPS power unit internal fault valla complete shut down aindi.,Power Supply Fault,Telugu-English,manual_seed
+PLC cannot communicate with controller over the Modbus network.,Communication Fault,English,manual_seed
+Profinet industrial Ethernet link down between main rack and remote IO block 3.,Communication Fault,English,manual_seed
+CAN bus interface entered bus-off state due to severe frame transmission errors.,Communication Fault,English,manual_seed
+EtherCAT slave station node 5 dropped off network ring causing state transition failure.,Communication Fault,English,manual_seed
+RS-485 serial communication experiencing continuous cyclic redundancy check CRC errors.,Communication Fault,English,manual_seed
+Managed network switch port 8 link flapping intermittently.,Communication Fault,English,manual_seed
+Modbus TCP connection timeout after repeated socket connection attempts.,Communication Fault,English,manual_seed
+DeviceNet trunk cable terminated improperly causing high packet collision rate.,Communication Fault,English,manual_seed
+Industrial Wi-Fi client disconnected from access point due to low signal strength.,Communication Fault,English,manual_seed
+Fiber optic communication converter optical loss of signal light active.,Communication Fault,English,manual_seed
+HMI unable to poll telemetry data from variable frequency drive over serial port.,Communication Fault,English,manual_seed
+Safety network communication integrity error tripped safe torque off.,Communication Fault,English,manual_seed
+OPC server connection rejected by remote SCADA workstation.,Communication Fault,English,manual_seed
+BACnet gateway unresponsive to ping queries from building management station.,Communication Fault,English,manual_seed
+Ethernet/IP I/O connection timed out on remote servo axis.,Communication Fault,English,manual_seed
+Serial RS-232 cable disconnected between barcode reader and controller.,Communication Fault,English,manual_seed
+Network gateway packet loss rate reached 60% on fieldbus trunk.,Communication Fault,English,manual_seed
+Profibus DP master report indicates transmission error with slave address 12.,Communication Fault,English,manual_seed
+Wireless telemetry transmitter dropped out of mesh network topology.,Communication Fault,English,manual_seed
+Modbus RTU query failed with timeout error code 0x0B.,Communication Fault,English,manual_seed
+Network cable damaged causing total communication loss between stations.,Communication Fault,English,manual_seed
+Fieldbus bus terminator resistor missing causing signal reflection.,Communication Fault,English,manual_seed
+IO-Link master channel 2 reports device communication lost.,Communication Fault,English,manual_seed
+SCADA communication driver dropped link with remote telemetry unit RTU.,Communication Fault,English,manual_seed
+PLC ethernet port link LED off and no data packets transmitting.,Communication Fault,English,manual_seed
+The PLC has lost communication with the controller over the fieldbus.,Communication Fault,English,manual_seed
+Modbus TCP connection refused after socket connection timeout.,Communication Fault,English,manual_seed
+Profinet network packet drop rate exceeded threshold causing axis halt.,Communication Fault,English,manual_seed
+CAN bus line entered bus-off state due to severe frame transmission errors.,Communication Fault,English,manual_seed
+Managed industrial ethernet switch port link is down and not communicating.,Communication Fault,English,manual_seed
+RS485 serial communication bus experiencing continuous CRC frame errors.,Communication Fault,English,manual_seed
+EtherCAT fieldbus master reported lost frame sync with slave modules.,Communication Fault,English,manual_seed
+Remote IO rack disconnected from main PLC network trunk cable.,Communication Fault,English,manual_seed
+DeviceNet communication bus dropped multiple node connections.,Communication Fault,English,manual_seed
+Wireless telemetry gateway dropped network connection to remote sensor hub.,Communication Fault,English,manual_seed
+PLC మరియు కంట్రోలర్ మధ్య కమ్యూనికేషన్ తెగిపోయింది.,Communication Fault,Telugu,manual_seed
+ఈథర్‌నెట్ నెట్‌వర్క్ కేబుల్ డిస్‌కనెక్ట్ అయింది.,Communication Fault,Telugu,manual_seed
+మోడ్‌బస్ నెట్‌వర్క్ టైమ్‌అవుట్ ఎర్రర్ వస్తోంది.,Communication Fault,Telugu,manual_seed
+ఫీల్డ్‌బస్ డేటా ప్యాకెట్లు లాస్ అవుతున్నాయి.,Communication Fault,Telugu,manual_seed
+HMI మరియు PLC మధ్య సిగ్నల్ కనెక్షన్ కట్ అయింది.,Communication Fault,Telugu,manual_seed
+ప్రొఫినెట్ లింక్ డౌన్ అయి రిమోట్ మాడ్యూల్స్ కనిపించట్లేదు.,Communication Fault,Telugu,manual_seed
+నెట్‌వర్క్ స్విచ్ పోర్ట్ కమ్యూనికేషన్ కోల్పోయింది.,Communication Fault,Telugu,manual_seed
+CAN బస్ ఎర్రర్ వల్ల డ్రైవ్స్ తో కమ్యూనికేషన్ ఆగింది.,Communication Fault,Telugu,manual_seed
+వైర్‌లెస్ గేట్‌వే సిగ్నల్ డ్రాప్ అయి రిమోట్ కంట్రోల్ పనిచేయట్లేదు.,Communication Fault,Telugu,manual_seed
+ఆప్టికల్ ఫైబర్ కమ్యూనికేషన్ లైన్ తెగిపోయింది.,Communication Fault,Telugu,manual_seed
+సీరియల్ కమ్యూనికేషన్ కేబుల్ లూజ్ అయి డేటా రావడం లేదు.,Communication Fault,Telugu,manual_seed
+రిమోట్ IO స్టేషన్ తో డేటా ఎక్స్ఛేంజ్ ఫెయిల్ అయింది.,Communication Fault,Telugu,manual_seed
+ఈథర్‌క్యాట్ స్లేవ్ నోడ్ నెట్‌వర్క్ నుంచి డిస్‌కనెక్ట్ అయింది.,Communication Fault,Telugu,manual_seed
+SCADA సర్వర్ తో PLC కనెక్ట్ అవ్వడం లేదు.,Communication Fault,Telugu,manual_seed
+మోడ్‌బస్ RTU రెస్పాన్స్ రాక టైమ్‌అవుట్ అయింది.,Communication Fault,Telugu,manual_seed
+PLC మరియు డ్రైవ్ మధ్య ఈథర్‌నెట్ కమ్యూనికేషన్ కట్ అయింది.,Communication Fault,Telugu,manual_seed
+ఫీల్డ్‌బస్ నెట్‌వర్క్ లో ప్యాకెట్లు చేరడం లేదు.,Communication Fault,Telugu,manual_seed
+మోడ్‌బస్ సీరియల్ లింక్ టైమ్‌అవుట్ ఎర్రర్ ఇస్తోంది.,Communication Fault,Telugu,manual_seed
+PLC communication avvatledu drive unit tho network break valla.,Communication Fault,Telugu-English,manual_seed
+Profinet network lo packet loss vastundi remote IO link cut aindi.,Communication Fault,Telugu-English,manual_seed
+Modbus communication timeout error continuous ga vastundi.,Communication Fault,Telugu-English,manual_seed
+Ethernet cable disconnect aipoindi switch board daggara.,Communication Fault,Telugu-English,manual_seed
+HMI to PLC communication disconnect aindi screen black aindi.,Communication Fault,Telugu-English,manual_seed
+CAN bus state bus-off loki vellipoindi transmission errors valla.,Communication Fault,Telugu-English,manual_seed
+"EtherCAT node network drop aindi, master sync error vastundi.",Communication Fault,Telugu-English,manual_seed
+RS-485 serial bus lo CRC error rates chala high ga unnayi.,Communication Fault,Telugu-English,manual_seed
+Network switch port link flapping avtundi continuous ga.,Communication Fault,Telugu-English,manual_seed
+Wireless gateway connection drop aindi field transmitter tho.,Communication Fault,Telugu-English,manual_seed
+Fiber optic communication transceivers signal receive cheskoleka potunnayi.,Communication Fault,Telugu-English,manual_seed
+"Fieldbus bus terminator poindi, reflection errors vastunnayi.",Communication Fault,Telugu-English,manual_seed
+Remote I/O station ping response ivvatledu network lo.,Communication Fault,Telugu-English,manual_seed
+SCADA communication link lost with PLC controller.,Communication Fault,Telugu-English,manual_seed
+DeviceNet network lo heavy frame collisions avtunnayi.,Communication Fault,Telugu-English,manual_seed
+Ethernet IP adapter communication timeout alarm trigger aindi.,Communication Fault,Telugu-English,manual_seed
+Serial cable disconnect aindi barcode scanner nunchi.,Communication Fault,Telugu-English,manual_seed
+Modbus socket connect reject aindi server side nunchi.,Communication Fault,Telugu-English,manual_seed
+Data telemetry packet transfer completely halted.,Communication Fault,Telugu-English,manual_seed
+Industrial ethernet switch port down no communication.,Communication Fault,Telugu-English,manual_seed
+PLC communication disconnect aindi remote IO station tho.,Communication Fault,Telugu-English,manual_seed
+Profinet network bus link down ayyi connection lost aindi.,Communication Fault,Telugu-English,manual_seed
+General equipment malfunction noticed during operational cycle.,Unknown,English,manual_seed
+The machine has an issue.,Unknown,English,manual_seed
+Equipment is not working properly.,Unknown,English,manual_seed
+Problem reported on production line.,Unknown,English,manual_seed
+Machine stopped.,Unknown,English,manual_seed
+Operator noticed an issue on station 3.,Unknown,English,manual_seed
+Plant line 2 halt.,Unknown,English,manual_seed
+Routine maintenance check requested.,Unknown,English,manual_seed
+System status abnormal.,Unknown,English,manual_seed
+Please check unit 5.,Unknown,English,manual_seed
+General malfunction observed on production floor.,Unknown,English,manual_seed
+Apparatus shut down automatically without diagnostic code.,Unknown,English,manual_seed
+Operator raised ticket stating machine not behaving as expected.,Unknown,English,manual_seed
+Workstation stopped mid-cycle for unspecified reasons.,Unknown,English,manual_seed
+Unspecified disturbance reported during shift handover.,Unknown,Unknown,manual_seed
+Device ceased normal operation at 14:00.,Unknown,English,manual_seed
+Supervisor requested inspection of assembly cell 4.,Unknown,English,manual_seed
+Unexpected behavior on machine 9.,Unknown,English,manual_seed
+Process interrupted without error logs.,Unknown,English,manual_seed
+Equipment tripped but reason unknown.,Unknown,English,manual_seed
+Station 1 requires immediate technical inspection.,Unknown,English,manual_seed
+Unknown trouble reported by technician.,Unknown,English,manual_seed
+System not responding to start sequence.,Unknown,English,manual_seed
+Production delay due to unspecified equipment anomaly.,Unknown,English,manual_seed
+Machine shut off unexpectedly during shift.,Unknown,English,manual_seed
+Plant technician reported an issue on the line.,Unknown,English,manual_seed
+Equipment anomaly observed during routine walkaround.,Unknown,English,manual_seed
+Production station 4 ceased operation for undetermined reasons.,Unknown,English,manual_seed
+Operator logged a ticket regarding unexpected line delay.,Unknown,English,manual_seed
+Equipment behavior appears irregular according to shift supervisor.,Unknown,English,manual_seed
+Workstation tripped without active error code or alarm annunciator.,Unknown,English,manual_seed
+Assembly cell stopped functioning unexpectedly during cycle.,Unknown,English,manual_seed
+Unknown condition flagged on secondary conveyor line.,Unknown,English,manual_seed
+Process line halted for general inspection.,Unknown,English,manual_seed
+Operator noticed something irregular with unit 7.,Unknown,English,manual_seed
+మెషిన్‌లో ఏదో సమస్య వచ్చింది.,Unknown,Telugu,manual_seed
+యూనిట్ సరిగ్గా పనిచేయడం లేదు.,Unknown,Telugu,manual_seed
+లైన్ ఆగిపోయింది.,Unknown,Telugu,manual_seed
+ఆపరేటర్ సమస్య ఉందని చెప్పారు.,Unknown,Telugu,manual_seed
+"మెషిన్ నడవట్లేదు, ఒకసారి చెక్ చేయండి.",Unknown,Telugu,manual_seed
+ప్లాంట్ స్టేషన్ వద్ద ఇబ్బంది ఉంది.,Unknown,Telugu,manual_seed
+ఉత్పత్తి ఆగిపోయింది కానీ కారణం తెలియదు.,Unknown,Telugu,manual_seed
+మెషిన్ పని చేయడం ఆగిపోయింది.,Unknown,Telugu,manual_seed
+"ఏదో తేడాగా ఉంది, సరిగ్గా నడవడం లేదు.",Unknown,Telugu,manual_seed
+పరికరంలో తెలియని సమస్య వచ్చింది.,Unknown,Telugu,manual_seed
+మెషిన్ సడెన్ గా ఆఫ్ అయిపోయింది.,Unknown,Telugu,manual_seed
+యూనిట్ 3 ఇన్స్పెక్షన్ చేయాలి.,Unknown,Telugu,manual_seed
+షిఫ్ట్ లో పని ఆగిపోయింది.,Unknown,Telugu,manual_seed
+కారణం లేకుండా మెషిన్ ట్రిప్ అయింది.,Unknown,Telugu,manual_seed
+"ఏదో తప్పు జరిగింది, మెషిన్ రెస్పాండ్ అవ్వట్లేదు.",Unknown,Telugu,manual_seed
+స్టేషన్ వద్ద సమస్య ఉందని సమాచారం వచ్చింది.,Unknown,Telugu,manual_seed
+మెషిన్ పనిచేయడం ఆగిపోయింది కానీ కారణం ఇంకా తెలియదు.,Unknown,Telugu,manual_seed
+పరికరంలో తేడా కనిపించి ఆపరేటర్ చెక్ చేయమన్నారు.,Unknown,Telugu,manual_seed
+"Machine lo edo issue undi, proper ga work avvatledu.",Unknown,Telugu-English,manual_seed
+"Unit properly run avvatledu, check cheyandi.",Unknown,Telugu-English,manual_seed
+"Station 4 daggara problem undi, reason teleedu.",Unknown,Telugu-English,manual_seed
+Machine sudden ga stop aindi running lo.,Unknown,Telugu-English,manual_seed
+Production line aagipoindi unspecified problem valla.,Unknown,Telugu-English,manual_seed
+Operator reported machine issue without any specific error.,Unknown,Telugu-English,manual_seed
+"Equipment abnormal ga behaves chestundi, details levu.",Unknown,Telugu-English,manual_seed
+Something went wrong in the process line.,Unknown,Telugu-English,manual_seed
+System shut down aindi without any reason.,Unknown,Telugu-English,manual_seed
+"Line 2 stopped, technical support inspect cheyali.",Unknown,Telugu-English,manual_seed
+Unit not working properly today shift lo.,Unknown,Telugu-English,manual_seed
+Machine start avvatledu but error code ledu.,Unknown,Telugu-English,manual_seed
+"Station stopped working suddenly, please verify.",Unknown,Telugu-English,manual_seed
+General issue observed on conveyor line.,Unknown,Telugu-English,manual_seed
+Machine turned off automatically.,Unknown,Telugu-English,manual_seed
+Workstation trip aindi reason unknown.,Unknown,Telugu-English,manual_seed
+Equipment status weird ga undi check required.,Unknown,Telugu-English,manual_seed
+Plant line halted unexpectedly.,Unknown,Telugu-English,manual_seed
+Production floor lo disturbance report chesaru.,Unknown,Telugu-English,manual_seed
+Unspecified breakdown on station 5.,Unknown,Telugu-English,manual_seed
+Station lo edo disturbance report chesaru reason teleedu.,Unknown,Telugu-English,manual_seed
+Machine halt aindi without any alarm message.,Unknown,Telugu-English,manual_seed

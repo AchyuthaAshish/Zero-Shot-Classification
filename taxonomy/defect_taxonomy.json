@@ -1,0 +1,217 @@
+{
+  "Mechanical Fault": {
+    "definition": "Physical or mechanical abnormality involving moving parts, structural components, or mechanical mechanisms.",
+    "examples": [
+      "Motor producing abnormal vibration.",
+      "The motor is making a strange noise.",
+      "Motor lo unusual sound vastundi.",
+      "The bearing has failed and the motor is making grinding noise.",
+      "Shaft misalignment causing violent wobble.",
+      "Gear teeth damaged in gearbox.",
+      "మోటార్ ఎక్కువగా వైబ్రేట్ అవుతోంది"
+    ],
+    "signals": [
+      "abnormal vibration",
+      "bearing noise",
+      "bearing failure",
+      "gear damage",
+      "shaft misalignment",
+      "grinding noise",
+      "wobble",
+      "mechanical chatter"
+    ],
+    "boundaries": [
+      "Distinguish from Electrical Fault when motor noise is accompanied by electrical sparking or winding burnout.",
+      "Distinguish from Temperature Fault when mechanical friction causes heat as a secondary symptom."
+    ],
+    "confusing_categories": [
+      "Electrical Fault",
+      "Temperature Fault"
+    ],
+    "exclusion_guidance": "Do not select if problem is purely electrical circuit/wiring or solely abnormal ambient/surface temperature without mechanical vibration or component failure."
+  },
+  "Electrical Fault": {
+    "definition": "Abnormality in electrical circuits, wiring, current, voltage levels within components, or electrical contacts.",
+    "examples": [
+      "Short circuit in control panel wiring.",
+      "Motor winding burnt due to overcurrent.",
+      "Sparking observed at terminal block.",
+      "Open circuit in wiring harness.",
+      "Voltage drop across terminal connections."
+    ],
+    "signals": [
+      "short circuit",
+      "open circuit",
+      "damaged wiring",
+      "burnt winding",
+      "sparking",
+      "abnormal current",
+      "terminal failure",
+      "blown fuse"
+    ],
+    "boundaries": [
+      "Distinguish from Power Supply Fault when the problem is internal circuit failure rather than external incoming power failure.",
+      "Distinguish from Mechanical Fault when electrical short causes motor stoppage."
+    ],
+    "confusing_categories": [
+      "Power Supply Fault",
+      "Mechanical Fault"
+    ],
+    "exclusion_guidance": "Do not select if power is completely absent from the external source or if the root issue is purely mechanical contact noise."
+  },
+  "Sensor Fault": {
+    "definition": "Defect or malfunction in a sensor device, sensor connection, calibration, or measurement output accuracy.",
+    "examples": [
+      "Temperature sensor is giving incorrect readings.",
+      "Pressure sensor output stuck at zero.",
+      "Optical proximity sensor disconnected.",
+      "Thermocouple calibration drifted significantly.",
+      "Vibration sensor not detecting motion."
+    ],
+    "signals": [
+      "sensor reading incorrect",
+      "sensor disconnected",
+      "calibration drift",
+      "sensor stuck",
+      "false reading",
+      "sensor erratic",
+      "measurement invalid"
+    ],
+    "boundaries": [
+      "Distinguish from Temperature Fault when the sensor incorrectly reports temperature but actual equipment temperature is normal.",
+      "Distinguish from Mechanical Fault when vibration sensor is faulty rather than the motor."
+    ],
+    "confusing_categories": [
+      "Temperature Fault",
+      "Mechanical Fault"
+    ],
+    "exclusion_guidance": "Do not select if physical temperature or vibration is genuinely abnormal and the sensor is correctly reading that abnormal state."
+  },
+  "Temperature Fault": {
+    "definition": "Abnormal physical or thermal condition where equipment or environment temperature exceeds or falls outside safe operational thresholds.",
+    "examples": [
+      "Machine temperature is continuously above the safe limit.",
+      "Motor overheating during extended continuous run.",
+      "Cooling radiator failed causing excessive ambient heat.",
+      "Bearing housing temperature exceeding 95 degrees Celsius."
+    ],
+    "signals": [
+      "overheating",
+      "temperature above safe limit",
+      "excessive heat",
+      "thermal runaway",
+      "cooling failure",
+      "temperature abnormal"
+    ],
+    "boundaries": [
+      "Distinguish from Sensor Fault when physical heat is verified and the sensor is functioning properly.",
+      "Distinguish from Mechanical Fault when overheating is the primary observed fault without mechanical breakdown."
+    ],
+    "confusing_categories": [
+      "Sensor Fault",
+      "Electrical Fault"
+    ],
+    "exclusion_guidance": "Do not select if the temperature sensor itself is giving erratic or erroneous measurements while physical temperature is normal."
+  },
+  "Software Fault": {
+    "definition": "Abnormality in application software, controller firmware, logic execution, program crashes, or digital operating algorithms.",
+    "examples": [
+      "Controller application keeps crashing on startup.",
+      "PLC firmware threw fatal memory error.",
+      "HMI display frozen on status screen.",
+      "Software logic bug causing valve command loop.",
+      "Robot controller rebooting during routine execution."
+    ],
+    "signals": [
+      "application crash",
+      "firmware error",
+      "software bug",
+      "program not responding",
+      "memory exception",
+      "controller freeze",
+      "reboot loop"
+    ],
+    "boundaries": [
+      "Distinguish from Communication Fault when software crashes internally without network or protocol transmission loss."
+    ],
+    "confusing_categories": [
+      "Communication Fault"
+    ],
+    "exclusion_guidance": "Do not select if the issue is a physical network disconnection, cable break, or wireless handshake failure."
+  },
+  "Power Supply Fault": {
+    "definition": "Failure, absence, or instability in incoming electrical power delivery to the system, power adapter, battery, or power grid feed.",
+    "examples": [
+      "Device is not receiving power from main supply.",
+      "24V DC power supply adapter has zero output.",
+      "Backup battery discharged and failed to switch over.",
+      "Main feeder circuit breaker tripped causing power loss.",
+      "Motor stopped because power is not reaching it."
+    ],
+    "signals": [
+      "power not reaching device",
+      "power supply dead",
+      "battery failed",
+      "breaker tripped",
+      "power cut",
+      "power adapter failure",
+      "zero supply voltage"
+    ],
+    "boundaries": [
+      "Distinguish from Electrical Fault when the external feed or supply unit is interrupted rather than an internal component short circuit."
+    ],
+    "confusing_categories": [
+      "Electrical Fault"
+    ],
+    "exclusion_guidance": "Do not select if power is being supplied properly but internal device circuits short-circuit or trip internally."
+  },
+  "Communication Fault": {
+    "definition": "Failure or degradation in transmission of data, signals, or protocol packets between systems, controllers, or network devices.",
+    "examples": [
+      "ESP32 cannot connect to WiFi access point.",
+      "CAN bus communication timeout between drive and controller.",
+      "MQTT connection dropped repeatedly.",
+      "RS-485 serial link reporting packet loss.",
+      "Ethernet link down between PLC and SCADA."
+    ],
+    "signals": [
+      "WiFi disconnected",
+      "CAN bus timeout",
+      "MQTT connection failure",
+      "packet loss",
+      "network unreachable",
+      "communication loss",
+      "serial connection error"
+    ],
+    "boundaries": [
+      "Distinguish from Software Fault when communication link or network is the root failure rather than software crash."
+    ],
+    "confusing_categories": [
+      "Software Fault"
+    ],
+    "exclusion_guidance": "Do not select if software program halted or crashed before attempting communication."
+  },
+  "Unknown": {
+    "definition": "Descriptions with insufficient, ambiguous, contradictory, or vague information that cannot reliably be mapped to one specific category.",
+    "examples": [
+      "Something is wrong with the machine.",
+      "Machine is behaving strangely.",
+      "Motor stopped suddenly.",
+      "Line 3 not working properly.",
+      "Unit stopped."
+    ],
+    "signals": [
+      "vague description",
+      "unspecified problem",
+      "machine not working",
+      "strange behavior",
+      "unknown symptom",
+      "insufficient details"
+    ],
+    "boundaries": [
+      "Use Unknown whenever the input does not provide explicit or sufficient evidence for any specific fault category."
+    ],
+    "confusing_categories": [],
+    "exclusion_guidance": "Do not use if clear evidence for one of the other 7 categories is present."
+  }
+}

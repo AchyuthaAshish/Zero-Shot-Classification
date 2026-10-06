@@ -1,0 +1,48 @@
+{
+  "model_name": "Multilingual MiniLM + LogisticRegression (Temperature Scaled)",
+  "pretrained_encoder": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "classifier_type": "LogisticRegression(max_iter=1000, C=2.0)",
+  "calibration_method": "Temperature Scaling",
+  "temperature": 0.3362,
+  "training_dataset_size": 600,
+  "train_examples": 480,
+  "validation_examples": 120,
+  "classes": [
+    "Mechanical Fault",
+    "Electrical Fault",
+    "Sensor Fault",
+    "Temperature Fault",
+    "Software Fault",
+    "Power Supply Fault",
+    "Communication Fault",
+    "Unknown"
+  ],
+  "class_distribution": {
+    "Mechanical Fault": 75,
+    "Electrical Fault": 75,
+    "Sensor Fault": 75,
+    "Temperature Fault": 75,
+    "Software Fault": 75,
+    "Power Supply Fault": 75,
+    "Communication Fault": 75,
+    "Unknown": 75
+  },
+  "random_seed": 42,
+  "confidence_threshold": 0.7,
+  "training_timestamp": "2026-09-29T05:16:05.931887Z",
+  "validation_metrics": {
+    "accuracy": 0.8917,
+    "macro_f1": 0.8937,
+    "ece_before": 0.2867,
+    "ece_after": 0.0536
+  },
+  "timing_measurements": {
+    "dataset_prep_time_seconds": 0.0227,
+    "model_loading_time_seconds": 15.9371,
+    "embedding_generation_time_seconds": 1.9563,
+    "classifier_training_time_seconds": 0.0298,
+    "validation_evaluation_time_seconds": 0.0021,
+    "total_training_time_seconds": 2.0108,
+    "avg_single_prediction_latency_ms": 13.08
+  }
+}

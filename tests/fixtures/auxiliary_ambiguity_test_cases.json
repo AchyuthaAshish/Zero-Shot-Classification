@@ -1,0 +1,119 @@
+[
+  {
+    "id": "AUX-AMB-001",
+    "description": "The conveyor motor is making a grinding noise.",
+    "language": "English",
+    "case_type": "clear_single_category",
+    "expected_category": "Mechanical Fault",
+    "expected_ambiguous": false,
+    "rationale": "Clear, uncontested mechanical friction signals without competing evidence."
+  },
+  {
+    "id": "AUX-AMB-002",
+    "description": "Short circuit across control panel terminals with visible arcing.",
+    "language": "English",
+    "case_type": "clear_single_category",
+    "expected_category": "Electrical Fault",
+    "expected_ambiguous": false,
+    "rationale": "Unambiguous electrical conductor short circuit."
+  },
+  {
+    "id": "AUX-AMB-003",
+    "description": "Something is wrong with the machine.",
+    "language": "English",
+    "case_type": "vague_input_not_ambiguous",
+    "expected_category": "Unknown",
+    "expected_ambiguous": false,
+    "rationale": "Insufficient evidence input is Unknown, not an ambiguity case."
+  },
+  {
+    "id": "AUX-AMB-004",
+    "description": "Problem occurred on assembly station.",
+    "language": "English",
+    "case_type": "vague_input_not_ambiguous",
+    "expected_category": "Unknown",
+    "expected_ambiguous": false,
+    "rationale": "Vague failure description without specific technical signals; not ambiguous."
+  },
+  {
+    "id": "AUX-AMB-005",
+    "description": "The motor is hot and the network connection is failing.",
+    "language": "English",
+    "case_type": "competing_evidence",
+    "expected_category": "Unknown",
+    "expected_ambiguous": true,
+    "rationale": "Genuine competing evidence between Temperature Fault ('hot') and Communication Fault ('network connection failing')."
+  },
+  {
+    "id": "AUX-AMB-006",
+    "description": "Motor bearing is vibrating violently while terminal block is sparking.",
+    "language": "English",
+    "case_type": "competing_evidence",
+    "expected_category": "Unknown",
+    "expected_ambiguous": true,
+    "rationale": "Genuine competing evidence between Mechanical Fault ('bearing vibrating') and Electrical Fault ('terminal sparking')."
+  },
+  {
+    "id": "AUX-AMB-007",
+    "description": "Thermocouple sensor reading erratic while cooling chiller has failed.",
+    "language": "English",
+    "case_type": "competing_evidence",
+    "expected_category": "Unknown",
+    "expected_ambiguous": true,
+    "rationale": "Genuine competing evidence between Sensor Fault ('sensor reading erratic') and Temperature Fault ('cooling chiller failed')."
+  },
+  {
+    "id": "AUX-AMB-008",
+    "description": "మోటార్ ఎక్కువగా వైబ్రేట్ అవుతోంది మరియు శబ్దం వస్తోంది.",
+    "language": "Telugu",
+    "case_type": "clear_multilingual_single",
+    "expected_category": "Mechanical Fault",
+    "expected_ambiguous": false,
+    "rationale": "Uncontested Telugu mechanical vibration and sound."
+  },
+  {
+    "id": "AUX-AMB-009",
+    "description": "మెషిన్‌లో ఏదో సమస్య వచ్చింది.",
+    "language": "Telugu",
+    "case_type": "vague_multilingual_not_ambiguous",
+    "expected_category": "Unknown",
+    "expected_ambiguous": false,
+    "rationale": "Telugu vague description has insufficient evidence; not ambiguous."
+  },
+  {
+    "id": "AUX-AMB-010",
+    "description": "మోటార్ వేడెక్కింది మరియు కనెక్షన్ కట్ అయింది.",
+    "language": "Telugu",
+    "case_type": "competing_multilingual_evidence",
+    "expected_category": "Unknown",
+    "expected_ambiguous": true,
+    "rationale": "Telugu competing evidence between Temperature Fault ('వేడెక్కింది') and Communication Fault ('కనెక్షన్ కట్')."
+  },
+  {
+    "id": "AUX-AMB-011",
+    "description": "Motor lo unusual sound vastundi, heavy vibration undi.",
+    "language": "Telugu-English",
+    "case_type": "clear_code_switched_single",
+    "expected_category": "Mechanical Fault",
+    "expected_ambiguous": false,
+    "rationale": "Code-switched description with clear uncontested mechanical vibration."
+  },
+  {
+    "id": "AUX-AMB-012",
+    "description": "Machine lo edo issue undi, work avvatledu.",
+    "language": "Telugu-English",
+    "case_type": "vague_code_switched_not_ambiguous",
+    "expected_category": "Unknown",
+    "expected_ambiguous": false,
+    "rationale": "Code-switched vague description is Unknown due to insufficient evidence; not ambiguous."
+  },
+  {
+    "id": "AUX-AMB-013",
+    "description": "Motor chala heat avtundi and wifi disconnected aindi.",
+    "language": "Telugu-English",
+    "case_type": "competing_code_switched_evidence",
+    "expected_category": "Unknown",
+    "expected_ambiguous": true,
+    "rationale": "Code-switched competing evidence between Temperature Fault ('heat') and Communication Fault ('wifi disconnected')."
+  }
+]

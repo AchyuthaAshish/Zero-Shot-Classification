@@ -1,0 +1,162 @@
+[
+  {
+    "id": "AUX-UNK-001",
+    "description": "Something is wrong.",
+    "language": "English",
+    "case_type": "vague_input",
+    "expected_category": "Unknown",
+    "rationale": "Extremely vague expression with zero specific technical symptoms."
+  },
+  {
+    "id": "AUX-UNK-002",
+    "description": "The machine has an issue.",
+    "language": "English",
+    "case_type": "vague_input",
+    "expected_category": "Unknown",
+    "rationale": "General statement of issue lacking equipment or symptom details."
+  },
+  {
+    "id": "AUX-UNK-003",
+    "description": "Problem occurred.",
+    "language": "English",
+    "case_type": "vague_input",
+    "expected_category": "Unknown",
+    "rationale": "Uninformative generic failure report."
+  },
+  {
+    "id": "AUX-UNK-004",
+    "description": "The system is not working properly.",
+    "language": "English",
+    "case_type": "vague_input",
+    "expected_category": "Unknown",
+    "rationale": "General malfunction report without diagnostic or physical evidence."
+  },
+  {
+    "id": "AUX-UNK-005",
+    "description": "Hello",
+    "language": "English",
+    "case_type": "unrelated_conversational",
+    "expected_category": "Unknown",
+    "rationale": "Conversational greeting unrelated to equipment failure."
+  },
+  {
+    "id": "AUX-UNK-006",
+    "description": "Need help",
+    "language": "English",
+    "case_type": "unrelated_conversational",
+    "expected_category": "Unknown",
+    "rationale": "General assistance request lacking defect or equipment context."
+  },
+  {
+    "id": "AUX-UNK-007",
+    "description": "Good morning, how are you today?",
+    "language": "English",
+    "case_type": "unrelated_conversational",
+    "expected_category": "Unknown",
+    "rationale": "Casual greeting containing no machinery failure indicators."
+  },
+  {
+    "id": "AUX-UNK-008",
+    "description": "What is the capital of France?",
+    "language": "English",
+    "case_type": "unrelated_query",
+    "expected_category": "Unknown",
+    "rationale": "Non-defect trivia question completely outside industrial taxonomy."
+  },
+  {
+    "id": "AUX-UNK-009",
+    "description": "test",
+    "language": "English",
+    "case_type": "trivial_input",
+    "expected_category": "Unknown",
+    "rationale": "Single isolated non-diagnostic keyword."
+  },
+  {
+    "id": "AUX-UNK-010",
+    "description": "మెషిన్‌లో ఏదో సమస్య వచ్చింది.",
+    "language": "Telugu",
+    "case_type": "vague_multilingual",
+    "expected_category": "Unknown",
+    "rationale": "Telugu vague description stating machine has an unspecified issue."
+  },
+  {
+    "id": "AUX-UNK-011",
+    "description": "Machine lo edo issue undi, work avvatledu.",
+    "language": "Telugu-English",
+    "case_type": "vague_code_switched",
+    "expected_category": "Unknown",
+    "rationale": "Code-switched description of machine not working with no specific symptom."
+  },
+  {
+    "id": "AUX-UNK-012",
+    "description": "Motor bearing is overheating and vibrating excessively.",
+    "language": "English",
+    "case_type": "valid_mechanical",
+    "expected_category": "Mechanical Fault",
+    "rationale": "Clear mechanical vibration and bearing fault evidence."
+  },
+  {
+    "id": "AUX-UNK-013",
+    "description": "Short circuit observed across terminal wiring with heavy sparking.",
+    "language": "English",
+    "case_type": "valid_electrical",
+    "expected_category": "Electrical Fault",
+    "rationale": "Clear electrical conductor short circuit and sparking evidence."
+  },
+  {
+    "id": "AUX-UNK-014",
+    "description": "Thermocouple sensor reading incorrect with severe calibration drift.",
+    "language": "English",
+    "case_type": "valid_sensor",
+    "expected_category": "Sensor Fault",
+    "rationale": "Clear sensor transducer drift and measurement inaccuracy."
+  },
+  {
+    "id": "AUX-UNK-015",
+    "description": "Cooling chiller failed causing motor temperature to spike above safe limits.",
+    "language": "English",
+    "case_type": "valid_temperature",
+    "expected_category": "Temperature Fault",
+    "rationale": "Clear thermal overload and cooling failure evidence."
+  },
+  {
+    "id": "AUX-UNK-016",
+    "description": "Firmware crashed with fatal null pointer exception on PLC boot.",
+    "language": "English",
+    "case_type": "valid_software",
+    "expected_category": "Software Fault",
+    "rationale": "Clear software crash and firmware exception evidence."
+  },
+  {
+    "id": "AUX-UNK-017",
+    "description": "Auxiliary power supply dead with zero DC voltage output and breaker tripped.",
+    "language": "English",
+    "case_type": "valid_power_supply",
+    "expected_category": "Power Supply Fault",
+    "rationale": "Clear electrical power source collapse and zero voltage supply."
+  },
+  {
+    "id": "AUX-UNK-018",
+    "description": "CAN bus communication timeout with complete packet loss on node 4.",
+    "language": "English",
+    "case_type": "valid_communication",
+    "expected_category": "Communication Fault",
+    "rationale": "Clear industrial network bus communication loss and packet drop."
+  },
+  {
+    "id": "AUX-UNK-019",
+    "description": "మోటార్ ఎక్కువగా వైబ్రేట్ అవుతోంది మరియు శబ్దం వస్తోంది.",
+    "language": "Telugu",
+    "case_type": "valid_multilingual_mechanical",
+    "expected_category": "Mechanical Fault",
+    "rationale": "Telugu description of heavy motor vibration and abnormal noise."
+  },
+  {
+    "id": "AUX-UNK-020",
+    "description": "Motor lo abnormal vibration undi, bearing sound vastundi.",
+    "language": "Telugu-English",
+    "case_type": "valid_code_switched_mechanical",
+    "expected_category": "Mechanical Fault",
+    "rationale": "Code-switched description with clear bearing sound and vibration."
+  }
+]
